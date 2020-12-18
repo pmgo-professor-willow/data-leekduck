@@ -9,7 +9,7 @@ const main = async () => {
   await mkdirp(outputPath);
 
   const raidBosses = await getRaidBosses();
-  await writeFile(`${outputPath}/raidBosses.json`, JSON.stringify(raidBosses, null, 2));
+  await writeFile(`${outputPath}/raid-bosses.json`, JSON.stringify(raidBosses, null, 2));
 
   const events = await getEvents();
   await writeFile(`${outputPath}/events.json`, JSON.stringify(events, null, 2));

@@ -6,6 +6,9 @@
   "repository": "https://github.com/wazho/pmgo-leekduck",
   "author": "Ze-Hao Wang",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
   "dependencies": {
     "fs-extra": "^9.0.1",
     "html-entities": "^1.3.3",
