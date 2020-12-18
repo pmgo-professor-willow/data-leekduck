@@ -2,12 +2,13 @@
 import _ from 'lodash';
 import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
+import urlJoin from 'url-join';
 import type { HTMLElement } from 'node-html-parser';
 // Local modules.
-import { cpFormatter } from './utils';
+import { hostUrl, cpFormatter } from './utils';
 
 const getRaidBosses = async () => {
-  const bossUrl = 'https://leekduck.com/boss/';
+  const bossUrl = urlJoin(hostUrl, '/boss/');
   const res = await fetch(bossUrl);
   const xml = await res.text();
 

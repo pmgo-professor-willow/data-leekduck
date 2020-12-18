@@ -2,11 +2,14 @@
 import _ from 'lodash';
 import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
+import { XmlEntities } from 'html-entities';
 import urlJoin from 'url-join';
 import moment from 'moment';
 import type { HTMLElement } from 'node-html-parser';
+// Local modules.
+import { hostUrl } from './utils';
 
-const hostUrl = 'https://leekduck.com';
+const entities = new XmlEntities();
 
 const getEvents = async () => {
   const url = urlJoin(hostUrl, '/events/');
@@ -18,7 +21,7 @@ const getEvents = async () => {
   const upcomingEventItems = root.querySelectorAll('div.events-list.upcoming-events a.event-item-link');
 
   const formatEvent = (eventItem: HTMLElement, label: string) => {
-    const title = eventItem.querySelector('h2').rawText;
+    const title = entities.decode(eventItem.querySelector('h2').rawText);
     const imageUrl = urlJoin(
       hostUrl,
       eventItem.querySelector('.event-img-wrapper img').getAttribute('src')!,
