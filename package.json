@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.20",
+    "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
     "node-html-parser": "^2.0.0",
     "url-join": "^4.0.1",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.165",
+    "@types/moment": "^2.13.0",
     "@types/node": "^14.14.14",
     "@types/node-fetch": "^2.5.7",
     "@types/url-join": "^4.0.0",
