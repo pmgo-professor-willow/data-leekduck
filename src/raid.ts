@@ -32,8 +32,10 @@ const getRaidBosses = async () => {
 
   const raidBosses = bossItems.map((bossItem, i) => {
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
+    // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
     const imageUrl = bossItem.querySelector('div.boss-img img').getAttribute('src')!;
-    const { 1: no } = imageUrl.match(/pokemon_icon_(\d+)_.+/)!;
+    console.log(imageUrl);
+    const { 2: no } = imageUrl.match(/pokemon_icon_(pm)*(\d+)_.+/)!;
 
     return {
       tier: _.maxBy(tierList.filter((o) => i >= o.index), 'index')?.tier,
