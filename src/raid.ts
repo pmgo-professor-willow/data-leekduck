@@ -34,7 +34,6 @@ const getRaidBosses = async () => {
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
     const imageUrl = bossItem.querySelector('div.boss-img img').getAttribute('src')!;
-    console.log(imageUrl);
     const { 2: no } = imageUrl.match(/pokemon_icon_(pm)*(\d+)_.+/)!;
 
     return {
@@ -46,10 +45,16 @@ const getRaidBosses = async () => {
       types: bossItem.querySelectorAll('div.boss-type img').map((node) =>
         node.getAttribute('title')?.toLowerCase()
       ),
+      typeUrls: bossItem.querySelectorAll('div.boss-type img').map((node) =>
+        urlJoin(hostUrl, node.getAttribute('src')!)
+      ),
       cp: cpFormatter(bossItem.querySelector('div.boss-2').lastChild.rawText),
       boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp').lastChild.rawText),
       boostedWeathers: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) =>
         node.getAttribute('src')?.match(/(\w+)\.png$/)![1]
+      ),
+      boostedWeatherUrls: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) =>
+        urlJoin(hostUrl, node.getAttribute('src')!)
       ),
     };
   });
