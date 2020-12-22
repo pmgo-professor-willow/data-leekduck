@@ -22,6 +22,7 @@ const getEvents = async () => {
 
   const formatEvent = (eventItem: HTMLElement, label: string) => {
     const title = entities.decode(eventItem.querySelector('h2').rawText);
+    const link = urlJoin(hostUrl, eventItem.getAttribute('href')!);
     const type = eventItem.querySelector('.event-item-wrapper p').rawText;
     const imageUrl = urlJoin(
       hostUrl,
@@ -37,6 +38,7 @@ const getEvents = async () => {
 
     return {
       title,
+      link,
       type,
       imageUrl,
       label,
