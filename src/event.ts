@@ -22,6 +22,7 @@ const getEvents = async () => {
 
   const formatEvent = (eventItem: HTMLElement, label: string) => {
     const title = entities.decode(eventItem.querySelector('h2').rawText);
+    const type = eventItem.querySelector('.event-item-wrapper p').rawText;
     const imageUrl = urlJoin(
       hostUrl,
       eventItem.querySelector('.event-img-wrapper img').getAttribute('src')!,
@@ -36,6 +37,7 @@ const getEvents = async () => {
 
     return {
       title,
+      type,
       imageUrl,
       label,
       isLocaleTime,
@@ -44,12 +46,27 @@ const getEvents = async () => {
     };
   };
 
-  const events = [
+  const allEvents = [
     ...currentEventItems.map((item) => formatEvent(item, 'current')),
     ...upcomingEventItems.map((item) => formatEvent(item, 'upcoming')),
   ];
 
-  return events;
+  const formattedEvents = _.chain(allEvents)
+    .groupBy((event) => event.title)
+    .map((events) => _.groupBy(events, (event) => event.label))
+    .map((group) => {
+      if (group.current && group.upcoming) {
+        group.current.forEach((_event, idx) => {
+          group.upcoming[idx].endTime = group.current[idx].endTime;
+          group.current[idx].startTime = group.upcoming[idx].startTime;
+        });
+      }
+      return _.concat(group.current, group.upcoming);
+    })
+    .flattenDeep()
+    .filter(Boolean);
+
+  return formattedEvents;
 };
 
 export {
