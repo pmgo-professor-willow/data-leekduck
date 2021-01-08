@@ -32,7 +32,9 @@ const getEvents = async () => {
     const countdownTo = countdownNode.getAttribute('data-countdown-to')!;
     const timeRaw = countdownNode.getAttribute('data-countdown')!;
     const isLocaleTime = ['start', 'end'].includes(countdownTo) ? !/^\d+$/.test(timeRaw) : null;
-    const time = isLocaleTime ? moment(timeRaw).toISOString() : moment.unix(parseInt(timeRaw) / 1000).toISOString();
+    const time = isLocaleTime
+      ? moment(timeRaw, 'MM/DD/YYYY HH:mm:ss').toISOString()
+      : moment.unix(parseInt(timeRaw) / 1000).toISOString();
     const startTime = countdownTo === 'start' ? time : null;
     const endTime = countdownTo === 'end' ? time : null;
 
@@ -54,7 +56,7 @@ const getEvents = async () => {
   ];
 
   const formattedEvents = _.chain(allEvents)
-    .groupBy((event) => event.title)
+    .groupBy((event) => `${event.title}|${event.link}`)
     .map((events) => _.groupBy(events, (event) => event.label))
     .map((group) => {
       if (group.current && group.upcoming) {
