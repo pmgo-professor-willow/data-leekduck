@@ -1,4 +1,5 @@
 const hostUrl = 'https://leekduck.com';
+const assetUrl = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/';
 
 const cpFormatter = (cpRawText: string) => {
   const matches = cpRawText.trim().match(/^(\d+)[^\d]+(\d+)$/);
@@ -15,5 +16,6 @@ const cpFormatter = (cpRawText: string) => {
 
 export {
   hostUrl,
+  assetUrl,
   cpFormatter,
 };
