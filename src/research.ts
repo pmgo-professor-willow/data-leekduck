@@ -4,8 +4,32 @@ import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
 import urlJoin from 'url-join';
 import { transPokemonName } from 'pmgo-pokedex';
+import { sprintf } from 'sprintf-js';
 // Local modules.
 import { hostUrl, assetUrl, cpFormatter } from './utils';
+import tags from '../data/research-category-tags.json';
+import descriptionDict from '../data/research-description-dictionary.json';
+
+const categoryMapping = (categoryTag: string) => {
+  const matchedTag = tags.find((tag) => tag.text === categoryTag);
+
+  if (matchedTag) {
+    return matchedTag.displayText;
+  } else {
+    return tags.find((tag) => tag.text === 'misc-research-tag')?.displayText;
+  }
+};
+
+const translateDescription = (description: string) => {
+  const matchedRule = descriptionDict.find((rule) => (new RegExp(rule.pattern)).test(description));
+
+  if (matchedRule) {
+    const [, ...matches] = description.match(new RegExp(matchedRule.pattern))!;
+    return sprintf(matchedRule.displayText, ...matches);
+  } else {
+    return description;
+  }
+};
 
 const getResearches = async () => {
   const researchUrl = urlJoin(hostUrl, '/research/');
@@ -27,10 +51,11 @@ const getResearches = async () => {
     const name = transPokemonName(originalName, no);
 
     const categoryRaw = researchItem.querySelector('.task-text').getAttribute('class')!;
-    const { 1: category } = categoryRaw.match(/.+ (\w+-research-tag)/)!;
+    const { 1: categoryTag } = categoryRaw.match(/.+ (\w+-research-tag)/)!;
+    const category = categoryMapping(categoryTag);
 
     return {
-      description: researchItem.querySelector('.task-text').rawText.trim(),
+      description: translateDescription(researchItem.querySelector('.task-text').rawText.trim()),
       category,
       rewardPokemon: {
         no,
