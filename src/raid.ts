@@ -3,6 +3,7 @@ import _ from 'lodash';
 import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
 import urlJoin from 'url-join';
+import { transPokemonName } from 'pmgo-pokedex';
 import type { HTMLElement } from 'node-html-parser';
 // Local modules.
 import { hostUrl, assetUrl, cpFormatter } from './utils';
@@ -34,13 +35,18 @@ const getRaidBosses = async () => {
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
     const imageUrlRaw = bossItem.querySelector('div.boss-img img').getAttribute('src')!;
-    const { 1: fileName, 3: no } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
+    const { 1: fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
     const imageUrl = urlJoin(assetUrl, fileName);
+
+    const no = parseInt(noText);
+    const originalName = bossItem.querySelector('p.boss-name').firstChild.rawText;
+    const name = transPokemonName(originalName, no);
 
     return {
       tier: _.maxBy(tierList.filter((o) => i >= o.index), 'index')?.tier,
-      no: parseInt(no),
-      name: bossItem.querySelector('p.boss-name').firstChild.rawText,
+      no,
+      name,
+      originalName,
       imageUrl,
       shinyAvailable: !!bossItem.querySelector('div.boss-img img.shiny-icon'),
       types: bossItem.querySelectorAll('div.boss-type img').map((node) =>
