@@ -34,6 +34,7 @@ const getEggs = async () => {
       category,
       cp: cpFormatter(eggItem.querySelector('.cp-range').lastChild.rawText),
       shinyAvailable: !!eggItem.querySelector('img.shiny-icon'),
+      regional: !!eggItem.querySelector('img.regional-icon'),
       imageUrl,
     };
   });
