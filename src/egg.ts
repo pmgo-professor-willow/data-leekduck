@@ -13,33 +13,54 @@ const getEggs = async () => {
   const xml = await res.text();
 
   const root = parse(xml);
-  const eggItems = root.querySelectorAll('ul.egg-list-flex li.egg-list-item');
+  const eggListItems = root.querySelectorAll('ul.egg-list-flex');
 
-  const eggs = eggItems.map((eggItem, i) => {
-    const imageUrlRaw = eggItem.querySelector('.egg-list-img img').getAttribute('src')!;
-    const { 1: fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
-    const imageUrl = urlJoin(assetUrl, fileName);
+  const eggGroups = eggListItems.map((eggListItem) => {
+    const eggItems = eggListItem.querySelectorAll('li.egg-list-item');
 
-    const no = parseInt(noText);
-    const originalName = eggItem.querySelector('.hatch-pkmn').rawText;
-    const name = transPokemonName(originalName, no);
-
-    const categoryRaw = eggItem.querySelector('.egg-list-img').getAttribute('class')!;
-    const { 1: category } = categoryRaw.match(/.+ egg(\d+km)$/)!;
-
-    return {
-      no,
-      name,
-      originalName,
-      category,
-      cp: cpFormatter(eggItem.querySelector('.cp-range').lastChild.rawText),
-      shinyAvailable: !!eggItem.querySelector('img.shiny-icon'),
-      regional: !!eggItem.querySelector('img.regional-icon'),
-      imageUrl,
-    };
+    const eggs = eggItems.map((eggItem, i) => {
+      const imageUrlRaw = eggItem.querySelector('.egg-list-img img').getAttribute('src')!;
+      const { 1: fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
+      const imageUrl = urlJoin(assetUrl, fileName);
+  
+      const no = parseInt(noText);
+      const originalName = eggItem.querySelector('.hatch-pkmn').rawText;
+      const name = transPokemonName(originalName, no);
+  
+      const categoryRaw = eggItem.querySelector('.egg-list-img').getAttribute('class')!;
+      const { 1: category } = categoryRaw.match(/.+ egg(\d+km)$/)!;
+  
+      return {
+        no,
+        name,
+        originalName,
+        category,
+        cp: cpFormatter(eggItem.querySelector('.cp-range').lastChild.rawText),
+        shinyAvailable: !!eggItem.querySelector('img.shiny-icon'),
+        regional: !!eggItem.querySelector('img.regional-icon'),
+        imageUrl,
+      };
+    });
+  
+    return eggs;
   });
 
-  return eggs;
+  // Update category.
+  const groupNames: string[] = [];
+  eggGroups.forEach((eggs) => {
+    const [firstEgg] = eggs;
+    console.log(firstEgg.category);
+
+    if (!groupNames.includes(firstEgg.category)) {
+      groupNames.push(firstEgg.category);
+    } else {
+      const updatedCategory = `${firstEgg.category}-adventure-sync`;
+      eggs.forEach((egg) => egg.category = updatedCategory);
+      groupNames.push(updatedCategory);
+    }
+  });
+
+  return _.flatten(eggGroups);
 };
 
 export {
