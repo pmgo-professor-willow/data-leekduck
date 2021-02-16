@@ -54,7 +54,7 @@ const getEggs = async () => {
     if (!groupNames.includes(firstEgg.category)) {
       groupNames.push(firstEgg.category);
     } else {
-      const updatedCategory = `${firstEgg.category}-adventure-sync`;
+      const updatedCategory = `時時刻刻冒險 ${firstEgg.category}`;
       eggs.forEach((egg) => egg.category = updatedCategory);
       groupNames.push(updatedCategory);
     }
