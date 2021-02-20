@@ -49,7 +49,6 @@ const getEggs = async () => {
   const groupNames: string[] = [];
   eggGroups.forEach((eggs) => {
     const [firstEgg] = eggs;
-    console.log(firstEgg.category);
 
     if (!groupNames.includes(firstEgg.category)) {
       groupNames.push(firstEgg.category);

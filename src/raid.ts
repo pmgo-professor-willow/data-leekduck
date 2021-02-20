@@ -15,7 +15,7 @@ const getRaidBosses = async () => {
 
   const root = parse(xml);
   const listItems = root.querySelectorAll('#raid-list ul.list li');
-  const tierList: { tier: string, index: number }[] = [];
+  let tierList: { tier: string, index: number }[] = [];
   const bossItems: HTMLElement[] = [];
 
   listItems.forEach((listItem, i) => {
@@ -31,6 +31,18 @@ const getRaidBosses = async () => {
     }
   });
 
+  /**
+    Avoid this case:
+    [
+      { tier: '1', index: 0 },
+      { tier: '3', index: 0 },
+      { tier: '4', index: 4 },
+      { tier: '5', index: 5 },
+      { tier: 'mega', index: 9 }
+    ]
+   */
+  tierList = _.uniqBy(tierList.reverse(), (o) => o.index).reverse();
+  
   const raidBosses = bossItems.map((bossItem, i) => {
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
