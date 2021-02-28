@@ -1,0 +1,46 @@
+[
+    {
+        "text": "Community Day",
+        "displayText": "社群日"
+    },
+    {
+        "text": "Pokémon Spotlight Hour",
+        "displayText": "寶可夢聚焦時刻"
+    },
+    {
+        "text": "Raid Hour",
+        "displayText": "團體戰晚餐約會"
+    },
+    {
+        "text": "Bonus Hour",
+        "displayText": "獎勵時刻"
+    },
+    {
+        "text": "Raid Battles",
+        "displayText": "團體戰"
+    },
+    {
+        "text": "GO Battle League",
+        "displayText": "GO 對戰聯盟"
+    },
+    {
+        "text": "Raid Day",
+        "displayText": "團體戰日"
+    },
+    {
+        "text": "Research Breakthrough",
+        "displayText": "田野調查突破性獎勵"
+    },
+    {
+        "text": "Special Research",
+        "displayText": "特殊調查"
+    },
+    {
+        "text": "Event",
+        "displayText": "活動"
+    },
+    {
+        "text": "Others",
+        "displayText": "其他活動"
+    }
+]

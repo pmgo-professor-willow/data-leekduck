@@ -8,8 +8,19 @@ import moment from 'moment';
 import type { HTMLElement } from 'node-html-parser';
 // Local modules.
 import { hostUrl } from './utils';
+import types from '../data/event-types.json';
 
 const entities = new XmlEntities();
+
+const typeMapping = (eventType: string) => {
+  const matchedType = types.find((type) => type.text === eventType);
+
+  if (matchedType) {
+    return matchedType.displayText;
+  } else {
+    return types.find((type) => type.text === 'Others')?.displayText;
+  }
+};
 
 const getEvents = async () => {
   const url = urlJoin(hostUrl, '/events/');
@@ -23,7 +34,7 @@ const getEvents = async () => {
   const formatEvent = (eventItem: HTMLElement, label: string) => {
     const title = entities.decode(eventItem.querySelector('h2').rawText);
     const link = urlJoin(hostUrl, eventItem.getAttribute('href')!);
-    const type = eventItem.querySelector('.event-item-wrapper p').rawText;
+    const type = typeMapping(eventItem.querySelector('.event-item-wrapper p').rawText);
     const imageUrl = urlJoin(
       hostUrl,
       eventItem.querySelector('.event-img-wrapper img').getAttribute('src')!,
