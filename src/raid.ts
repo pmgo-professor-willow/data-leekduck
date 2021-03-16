@@ -69,12 +69,14 @@ const getRaidBosses = async () => {
       ),
       cp: cpFormatter(bossItem.querySelector('div.boss-2').lastChild.rawText),
       boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp').lastChild.rawText),
-      boostedWeathers: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) =>
-        node.getAttribute('src')?.match(/(\w+)\.png$/)![1]
-      ),
-      boostedWeatherUrls: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) =>
-        urlJoin(hostUrl, node.getAttribute('src')!)
-      ),
+      boostedWeathers: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) => {
+        const matches = node.getAttribute('src')?.match(/(\w+)\.png$/);
+        return matches ? matches[1] : null;
+      }).filter(Boolean),
+      boostedWeatherUrls: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) => {
+        const matches = node.getAttribute('src')?.match(/(\w+)\.png$/);
+        return matches ? urlJoin(hostUrl, node.getAttribute('src')!) : null;
+      }).filter(Boolean),
     };
   });
 
