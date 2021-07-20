@@ -1,0 +1,336 @@
+[
+  {
+    "tier": "1",
+    "no": 215,
+    "name": "狃拉",
+    "originalName": "Sneasel",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_215_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dark.png",
+      "https://leekduck.com/assets/img/types/ice.png"
+    ],
+    "cp": {
+      "min": 1107,
+      "max": 1172
+    },
+    "boostedCp": {
+      "min": 1384,
+      "max": 1465
+    },
+    "boostedWeathers": [
+      "foggy",
+      "snowy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/snowy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 302,
+    "name": "勾魂眼",
+    "originalName": "Sableye",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_302_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dark.png",
+      "https://leekduck.com/assets/img/types/ghost.png"
+    ],
+    "cp": {
+      "min": 789,
+      "max": 843
+    },
+    "boostedCp": {
+      "min": 986,
+      "max": 1054
+    },
+    "boostedWeathers": [
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 318,
+    "name": "利牙魚",
+    "originalName": "Carvanha",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_318_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/water.png",
+      "https://leekduck.com/assets/img/types/dark.png"
+    ],
+    "cp": {
+      "min": 531,
+      "max": 583
+    },
+    "boostedCp": {
+      "min": 664,
+      "max": 729
+    },
+    "boostedWeathers": [
+      "rainy",
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 529,
+    "name": "螺釘地鼠",
+    "originalName": "Drilbur",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_529_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "ground"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ground.png"
+    ],
+    "cp": {
+      "min": 732,
+      "max": 786
+    },
+    "boostedCp": {
+      "min": 916,
+      "max": 983
+    },
+    "boostedWeathers": [
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 677,
+    "name": "妙喵",
+    "originalName": "Espurr",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_677_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 669,
+      "max": 719
+    },
+    "boostedCp": {
+      "min": 837,
+      "max": 899
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 47,
+    "name": "派拉斯特",
+    "originalName": "Parasect",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_047_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/bug.png",
+      "https://leekduck.com/assets/img/types/grass.png"
+    ],
+    "cp": {
+      "min": 1002,
+      "max": 1062
+    },
+    "boostedCp": {
+      "min": 1252,
+      "max": 1328
+    },
+    "boostedWeathers": [
+      "rainy",
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 202,
+    "name": "果然翁",
+    "originalName": "Wobbuffet",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_202_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 532,
+      "max": 586
+    },
+    "boostedCp": {
+      "min": 665,
+      "max": 733
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 344,
+    "name": "念力土偶",
+    "originalName": "Claydol",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_344_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ground.png",
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 1063,
+      "max": 1126
+    },
+    "boostedCp": {
+      "min": 1328,
+      "max": 1408
+    },
+    "boostedWeathers": [
+      "sunny",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 376,
+    "name": "巨金怪",
+    "originalName": "Metagross",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_376_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/steel.png",
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 2078,
+      "max": 2166
+    },
+    "boostedCp": {
+      "min": 2598,
+      "max": 2708
+    },
+    "boostedWeathers": [
+      "snowy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/snowy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 150,
+    "name": "超夢",
+    "originalName": "Mewtwo",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_150_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 2294,
+      "max": 2387
+    },
+    "boostedCp": {
+      "min": 2868,
+      "max": 2984
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "mega",
+    "no": 94,
+    "name": "Mega 耿鬼",
+    "originalName": "Mega Gengar",
+    "imageUrl": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_094_51.png",
+    "shinyAvailable": true,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ghost.png",
+      "https://leekduck.com/assets/img/types/poison.png"
+    ],
+    "cp": {
+      "min": 1566,
+      "max": 1644
+    },
+    "boostedCp": {
+      "min": 1958,
+      "max": 2055
+    },
+    "boostedWeathers": [
+      "foggy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  }
+]
