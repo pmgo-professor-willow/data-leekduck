@@ -47,7 +47,9 @@ const getRaidBosses = async () => {
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
     const imageUrlRaw = bossItem.querySelector('div.boss-img img').getAttribute('src')!;
-    const { 1: fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
+    const { 1: fileName1, 3: noText1, 4: fileName2, 5: noText2 } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)|(pm(\d+).+)/)!;
+    const fileName = fileName1 || fileName2;
+    const noText = noText1 || noText2;
     const imageUrl = urlJoin(assetUrl, fileName);
 
     const no = parseInt(noText);
