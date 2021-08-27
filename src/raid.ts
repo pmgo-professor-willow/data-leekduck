@@ -6,7 +6,7 @@ import urlJoin from 'url-join';
 import { transPokemonName } from 'pmgo-pokedex';
 import type { HTMLElement } from 'node-html-parser';
 // Local modules.
-import { hostUrl, assetUrl, cpFormatter } from './utils';
+import { hostUrl, cpFormatter } from './utils';
 
 const getRaidBosses = async () => {
   const bossUrl = urlJoin(hostUrl, '/boss/');
@@ -44,15 +44,36 @@ const getRaidBosses = async () => {
   tierList = _.uniqBy(tierList.reverse(), (o) => o.index).reverse();
   
   const raidBosses = bossItems.map((bossItem, i) => {
-    // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
-    // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
     const imageUrlRaw = bossItem.querySelector('div.boss-img img').getAttribute('src')!;
-    const { 1: fileName1, 3: noText1, 4: fileName2, 5: noText2 } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)|(pm(\d+).+)/)!;
-    const fileName = fileName1 || fileName2;
-    const noText = noText1 || noText2;
-    const imageUrl = urlJoin(assetUrl, fileName);
 
-    const no = parseInt(noText);
+    let fileName: string;
+    let no: number = 0;
+    const imageUrl = new URL(imageUrlRaw, bossUrl).href;
+
+    // imageUrl: '.../pm888.icon.png'
+    const match1 = imageUrlRaw.match(/(pm(\d+)(\.(.+))?\.icon\..+)/)!;
+    if (match1) {
+      const { 1: fileNameRaw, 2: noRaw, 4: _formRaw } = match1;
+      fileName = fileNameRaw;
+      no = parseInt(noRaw);
+    }
+
+    // imageUrl: '.../pokemon_icon_460_51.png'
+    const match2 = imageUrlRaw.match(/\/(pokemon_icon_(pm)*(\d+)_.+)/)!;
+    if (match2) {
+      const { 1: fileNameRaw, 3: noRaw } = match2;
+      fileName = fileNameRaw;
+      no = parseInt(noRaw);
+    }
+
+    // imageUrl: '.../pokemon_icon_pm0025_00_pgo_movie2020.png'
+    const match3 = imageUrlRaw.match(/\/(pokemon_icon_pm(\d+).+)/)!;
+    if (match3) {
+      const { 1: fileNameRaw, 2: noRaw } = match3;
+      fileName = fileNameRaw;
+      no = parseInt(noRaw);
+    }
+
     const originalName = bossItem.querySelector('p.boss-name').firstChild.rawText;
     const name = transPokemonName(originalName, no);
 

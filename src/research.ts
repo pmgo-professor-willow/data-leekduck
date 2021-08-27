@@ -6,7 +6,7 @@ import urlJoin from 'url-join';
 import { transPokemonName } from 'pmgo-pokedex';
 import { sprintf } from 'sprintf-js';
 // Local modules.
-import { hostUrl, assetUrl, cpFormatter } from './utils';
+import { hostUrl, cpFormatter } from './utils';
 import tags from '../data/research-category-tags.json';
 import descriptionDict from '../data/research-description-dictionary.json';
 
@@ -43,8 +43,8 @@ const getResearches = async () => {
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_460_51.png'
     // imageUrl: '//images.weserv.nl/?w=200&il&url=raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_pm0025_00_pgo_movie2020.png'
     const imageUrlRaw = researchItem.querySelector('.task-reward .reward-img img').getAttribute('src')!;
-    const { 1: fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
-    const imageUrl = urlJoin(assetUrl, fileName);
+    const { 1: _fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
+    const imageUrl = new URL(imageUrlRaw, researchUrl).href;
 
     const no = parseInt(noText);
     const originalName = researchItem.querySelector('.task-reward .reward-text').rawText.trim();
