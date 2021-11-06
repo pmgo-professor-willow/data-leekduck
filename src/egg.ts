@@ -35,7 +35,7 @@ const getEggs = async () => {
         name,
         originalName,
         category,
-        cp: cpFormatter(eggItem.querySelector('.cp-range').lastChild.rawText),
+        cp: cpFormatter(eggItem.querySelector('.font-size-smaller').lastChild.rawText),
         shinyAvailable: !!eggItem.querySelector('img.shiny-icon'),
         regional: !!eggItem.querySelector('img.regional-icon'),
         imageUrl,
