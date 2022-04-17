@@ -20,8 +20,14 @@ const getEggs = async () => {
 
     const eggs = eggItems.map((eggItem, i) => {
       const imageUrlRaw = eggItem.querySelector('.egg-list-img img').getAttribute('src')!;
-      const { 1: _fileName, 3: noText } = imageUrlRaw.match(/(pokemon_icon_(pm)*(\d+)_.+)/)!;
       const imageUrl = new URL(imageUrlRaw, eggUrl).href;
+      const noText = String(
+        // ../assets/img/pokemon_icons/pokemon_icon_656_00.png
+        // ../assets/img/pokemon_icons/pokemon_icon_pm656_00.png
+        imageUrlRaw.match(/(pokemon_icon_(pm)*(<?noText>\d+)_.+)/)?.groups?.noText
+        // ../assets/img/pokemon_icons/pm731.icon.png
+        || imageUrlRaw.match(/pm(<?noText>\d+)\.icon.+/)?.groups?.noText
+      );
 
       const no = parseInt(noText);
       const originalName = eggItem.querySelector('.hatch-pkmn').rawText;
