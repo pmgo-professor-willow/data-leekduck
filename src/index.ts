@@ -28,14 +28,14 @@ const main = async () => {
     console.error(e);
   }
 
-  // Researches.
-  try {
-    const researches = await getResearches();
-    await writeFile(`${outputPath}/researches.json`, JSON.stringify(researches, null, 2));
-    await writeFile(`${outputPath}/researches.min.json`, JSON.stringify(researches));
-  } catch (e) {
-    console.error(e);
-  }
+  // Researches (deprecated).
+  // try {
+  //   const researches = await getResearches();
+  //   await writeFile(`${outputPath}/researches.json`, JSON.stringify(researches, null, 2));
+  //   await writeFile(`${outputPath}/researches.min.json`, JSON.stringify(researches));
+  // } catch (e) {
+  //   console.error(e);
+  // }
 
   // Eggs.
   try {
