@@ -24,9 +24,9 @@ const getEggs = async () => {
       const noText = String(
         // ../assets/img/pokemon_icons/pokemon_icon_656_00.png
         // ../assets/img/pokemon_icons/pokemon_icon_pm656_00.png
-        imageUrlRaw.match(/(pokemon_icon_(pm)*(<?noText>\d+)_.+)/)?.groups?.noText
+        imageUrlRaw.match(/(pokemon_icon_(pm)*(?<noText>\d+)_.+)/)?.groups?.noText
         // ../assets/img/pokemon_icons/pm731.icon.png
-        || imageUrlRaw.match(/pm(<?noText>\d+)\.icon.+/)?.groups?.noText
+        || imageUrlRaw.match(/pm(?<noText>\d+)\.icon.+/)?.groups?.noText
       );
 
       const no = parseInt(noText);
