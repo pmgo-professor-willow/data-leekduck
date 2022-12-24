@@ -37,7 +37,10 @@ const getEvents = async () => {
     const type = typeMapping(eventItem.querySelector('.event-item-wrapper p').rawText);
     const imageUrl = urlJoin(
       hostUrl,
-      eventItem.querySelector('.event-img-wrapper img').getAttribute('src')!,
+      '/assets/img/events',
+      //   src: 'https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/raidhour.jpg',
+      // regex: '/raidhour.jpg'
+      eventItem.querySelector('.event-img-wrapper img').getAttribute('src')!.match(/.+(?<filename>\/.+)$/)?.groups?.filename!,
     );
     const countdownNode = eventItem.querySelector('.event-countdown');
     const countdownTo = countdownNode.getAttribute('data-countdown-to')!;
