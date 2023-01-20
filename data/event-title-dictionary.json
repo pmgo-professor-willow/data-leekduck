@@ -1,0 +1,38 @@
+[
+    {
+        "pattern": "^(.+) Raid Hour$",
+        "displayText": "##POKEMON_%1$s## 晚餐約會"
+    },
+    {
+        "pattern": "^(.+) Spotlight Hour$",
+        "displayText": "##POKEMON_%1$s## 聚焦時刻"
+    },
+    {
+        "pattern": "^(.+) in 5-star Raid Battles$",
+        "displayText": "##POKEMON_%1$s## 現身五星團體戰"
+    },
+    {
+        "pattern": "^(.+) in Mega Raids$",
+        "displayText": "##POKEMON_%1$s## 現身超級團體戰"
+    },
+    {
+        "pattern": "^(.+) Community Day Classic$",
+        "displayText": "##POKEMON_%1$s## 經典社群日"
+    },
+    {
+        "pattern": "^(.+) Community Day$",
+        "displayText": "##POKEMON_%1$s## 社群日"
+    },
+    {
+        "pattern": "^GO Battle Day: (.+)$",
+        "displayText": "GO 對戰日: ##POKEMON_%1$s##"
+    },
+    {
+        "pattern": "^Season (\\d+): (.+)$",
+        "displayText": "第 %1$s 季節：%2$s"
+    },
+    {
+        "pattern": "^(.+) Research Breakthrough - Season (\\d+)$",
+        "displayText": "第 %2$s 季節 %1$s 田野調查突破性進展"
+    }
+]
