@@ -3,10 +3,11 @@ import _ from 'lodash';
 import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
 import urlJoin from 'url-join';
-import { transPokemonName } from 'pmgo-pokedex';
 import type { HTMLElement } from 'node-html-parser';
 // Local modules.
-import { hostUrl, cpFormatter } from './utils';
+import { hostUrl } from './constants/index';
+import { cpFormatter } from './utils/calculator';
+import { pokedex } from './utils/pokedex';
 
 const getRaidBosses = async () => {
   const bossUrl = urlJoin(hostUrl, '/boss/');
@@ -22,8 +23,8 @@ const getRaidBosses = async () => {
     const isHeader = listItem.getAttribute('class') === 'header-li';
 
     if (isHeader) {
-      const tierText = listItem.querySelector('h2.boss-tier-header').lastChild.rawText;
-      const tier = tierText.toLowerCase().replace('tier', '').trim();
+      const tierText = listItem.querySelector('h2.boss-tier-header')?.lastChild.rawText;
+      const tier = tierText?.toLowerCase().replace('tier', '').trim()!;
       const index = i - tierList.length;
       tierList.push({ tier, index });
     } else {
@@ -44,7 +45,7 @@ const getRaidBosses = async () => {
   tierList = _.uniqBy(tierList.reverse(), (o) => o.index).reverse();
   
   const raidBosses = bossItems.map((bossItem, i) => {
-    const imageUrlRaw = bossItem.querySelector('div.boss-img img').getAttribute('src')!;
+    const imageUrlRaw = bossItem.querySelector('div.boss-img img')?.getAttribute('src')!;
 
     let fileName: string;
     let no: number = 0;
@@ -74,8 +75,8 @@ const getRaidBosses = async () => {
       no = parseInt(noRaw);
     }
 
-    const originalName = bossItem.querySelector('p.boss-name').firstChild.rawText;
-    const name = transPokemonName(originalName, no);
+    const originalName = bossItem.querySelector('p.boss-name')?.firstChild.rawText!;
+    const name = pokedex.transPokemonName(originalName);
 
     return {
       tier: _.maxBy(tierList.filter((o) => i >= o.index), 'index')?.tier,
@@ -90,8 +91,8 @@ const getRaidBosses = async () => {
       typeUrls: bossItem.querySelectorAll('div.boss-type img').map((node) =>
         urlJoin(hostUrl, node.getAttribute('src')!)
       ),
-      cp: cpFormatter(bossItem.querySelector('div.boss-2').lastChild.rawText),
-      boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp').lastChild.rawText),
+      cp: cpFormatter(bossItem.querySelector('div.boss-2')?.lastChild.rawText!),
+      boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp')?.lastChild.rawText!),
       boostedWeathers: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) => {
         const matches = node.getAttribute('src')?.match(/(\w+)\.png$/);
         return matches ? matches[1] : null;

@@ -1,5 +1,3 @@
-const hostUrl = 'https://leekduck.com';
-
 const cpFormatter = (cpRawText: string) => {
   const matches = cpRawText.trim().match(/^(\d+)[^\d]+(\d+)$/);
 
@@ -14,6 +12,5 @@ const cpFormatter = (cpRawText: string) => {
 };
 
 export {
-  hostUrl,
   cpFormatter,
 };

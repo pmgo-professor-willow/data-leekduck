@@ -3,9 +3,10 @@ import _ from 'lodash';
 import fetch from 'node-fetch';
 import { parse } from 'node-html-parser';
 import urlJoin from 'url-join';
-import { transPokemonName } from 'pmgo-pokedex';
 // Local modules.
-import { hostUrl, cpFormatter } from './utils';
+import { hostUrl } from './constants/index';
+import { cpFormatter } from './utils/calculator';
+import { pokedex } from './utils/pokedex';
 
 const getEggs = async () => {
   const eggUrl = urlJoin(hostUrl, '/eggs/');
@@ -19,7 +20,7 @@ const getEggs = async () => {
     const eggItems = eggListItem.querySelectorAll('li.egg-list-item');
 
     const eggs = eggItems.map((eggItem, i) => {
-      const imageUrlRaw = eggItem.querySelector('.egg-list-img img').getAttribute('src')!;
+      const imageUrlRaw = eggItem.querySelector('.egg-list-img img')?.getAttribute('src')!;
       const imageUrl = new URL(imageUrlRaw, eggUrl).href;
       const noText = String(
         // ../assets/img/pokemon_icons/pokemon_icon_656_00.png
@@ -30,18 +31,18 @@ const getEggs = async () => {
       );
 
       const no = parseInt(noText);
-      const originalName = eggItem.querySelector('.hatch-pkmn').rawText;
-      const name = transPokemonName(originalName, no);
+      const originalName = eggItem.querySelector('.hatch-pkmn')?.rawText!;
+      const name = pokedex.transPokemonName(originalName);
   
-      const categoryRaw = eggItem.querySelector('.egg-list-img').getAttribute('class')!;
+      const categoryRaw = eggItem.querySelector('.egg-list-img')?.getAttribute('class')!;
       const { 1: category } = categoryRaw.match(/.+ egg(\d+km)$/)!;
-  
+
       return {
         no,
         name,
         originalName,
         category,
-        cp: cpFormatter(eggItem.querySelector('.font-size-smaller').lastChild.rawText),
+        cp: cpFormatter(eggItem.querySelector('.font-size-smaller')?.lastChild.rawText!),
         shinyAvailable: !!eggItem.querySelector('img.shiny-icon'),
         regional: !!eggItem.querySelector('img.regional-icon'),
         imageUrl,
