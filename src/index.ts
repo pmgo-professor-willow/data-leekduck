@@ -12,8 +12,8 @@ const main = async () => {
   // Raid Bosses.
   try {
     const raidBosses = await getRaidBosses();
-    await writeFile(`${outputPath}/raid-bosses.json`, JSON.stringify(raidBosses, null, 2));
-    await writeFile(`${outputPath}/raid-bosses.min.json`, JSON.stringify(raidBosses));
+    await writeFile(`${outputPath}/raidBosses.json`, JSON.stringify(raidBosses, null, 2));
+    await writeFile(`${outputPath}/raidBosses.min.json`, JSON.stringify(raidBosses));
   } catch (e) {
     console.error(e);
   }
