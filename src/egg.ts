@@ -60,7 +60,9 @@ const getEggs = async () => {
     if (!groupNames.includes(firstEgg.category)) {
       groupNames.push(firstEgg.category);
     } else {
-      const updatedCategory = `時時刻刻冒險 ${firstEgg.category}`;
+      // Adventure Sync 5km -> as5km
+      // Adventure Sync 10km -> as10km
+      const updatedCategory = `as${firstEgg.category}`;
       eggs.forEach((egg) => egg.category = updatedCategory);
       groupNames.push(updatedCategory);
     }
