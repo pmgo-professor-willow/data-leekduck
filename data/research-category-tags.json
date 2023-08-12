@@ -1,0 +1,57 @@
+[
+    {
+        "text": "Event Tasks",
+        "displayText": "活動限定",
+        "priority": 1
+    },
+    {
+        "text": "Catching Tasks",
+        "displayText": "捕捉",
+        "priority": 11
+    },
+    {
+        "text": "Throwing Tasks",
+        "displayText": "投球",
+        "priority": 12
+    },
+    {
+        "text": "Battling Tasks",
+        "displayText": "對戰",
+        "priority": 21
+    },
+    {
+        "text": "Training Tasks",
+        "displayText": "訓練",
+        "priority": 31
+    },
+    {
+        "text": "Exploring Tasks",
+        "displayText": "探索",
+        "priority": 41
+    },
+    {
+        "text": "Buddy & Friendship Tasks",
+        "displayText": "夥伴 & 友情",
+        "priority": 51
+    },
+    {
+        "text": "Team GO Rocket Tasks",
+        "displayText": "GO 火箭隊",
+        "priority": 61
+    },
+    {
+        "text": "AR Scanning Tasks",
+        "displayText": "AR Mapping",
+        "priority": 71
+    },
+    {
+        "text": "Sponsored Tasks",
+        "displayText": "贊助據點",
+        "priority": 101
+    },
+    {
+        "text": "Miscellaneous Tasks",
+        "displayText": "其他類型",
+        "priority": 999
+    }
+]

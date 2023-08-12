@@ -1,0 +1,330 @@
+[
+    {
+        "pattern": "^Power up a Pokémon (\\d+) times\\.{0,1}$",
+        "displayText": "強化寶可夢 %1$s 次"
+    },
+    {
+        "pattern": "^Power up Pokémon (\\d+) times\\.{0,1}$",
+        "displayText": "強化寶可夢 %1$s 次"
+    },
+    {
+        "pattern": "^Evolve a Pokémon\\.{0,1}$",
+        "displayText": "進化 1 隻寶可夢"
+    },
+    {
+        "pattern": "^Evolve a (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "進化 1 隻%1$s系寶可夢"
+    },
+    {
+        "pattern": "^Evolve (\\d+) (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "進化 %1$s 隻%2$s系寶可夢"
+    },
+    {
+        "pattern": "^Evolve a (\\w+)\\.{0,1}$",
+        "displayText": "進化 1 隻##POKEMON_%1$s##"
+    },
+    {
+        "pattern": "^Evolve (\\d+) (\\w+)\\.{0,1}$",
+        "displayText": "進化 %1$s 隻##POKEMON_%2$s##"
+    },
+    {
+        "pattern": "^Purify a Shadow Pokémon\\.{0,1}$",
+        "displayText": "淨化 1 隻暗影寶可夢"
+    },
+    {
+        "pattern": "^Purify (\\d+) Shadow Pokémon\\.{0,1}$",
+        "displayText": "淨化 %1$s 隻暗影寶可夢"
+    },
+    {
+        "pattern": "^Catch a Pokémon\\.{0,1}$",
+        "displayText": "捕捉 1 隻寶可夢"
+    },
+    {
+        "pattern": "^Catch (\\d+) Pokémon\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻寶可夢"
+    },
+    {
+        "pattern": "^Catch a Pokémon with Weather Boost\\.{0,1}$",
+        "displayText": "捕捉 1 隻具有天氣優勢的寶可夢"
+    },
+    {
+        "pattern": "^Catch (\\d+) Pokémon with Weather Boost\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻具有天氣優勢的寶可夢"
+    },
+    {
+        "pattern": "^Catch a (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "捕捉 1 隻%1$s系寶可夢"
+    },
+    {
+        "pattern": "^Catch (\\d+) (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻%2$s系寶可夢"
+    },
+    {
+        "pattern": "^Catch (\\d+) (\\w+-), (\\w+-), or (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻%2$s、%3$s或%4$s系寶可夢"
+    },
+    {
+        "pattern": "^Catch a (\\w+)\\.{0,1}$",
+        "displayText": "捕捉 1 隻##POKEMON_%1$s##"
+    },
+    {
+        "pattern": "^Catch (\\d+) (\\w+)\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻##POKEMON_%2$s##"
+    },
+    {
+        "pattern": "^Catch (\\d+) different species of Pokémon\\.{0,1}$",
+        "displayText": "捕捉 %1$s 種不同的寶可夢"
+    },
+    {
+        "pattern": "^Catch (\\d+) different species of (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻不同的%2$s系寶可夢"
+    },
+    {
+        "pattern": "^Catch (\\d+) Shadow Pokémon\\.{0,1}$",
+        "displayText": "捕捉 %1$s 隻暗影寶可夢"
+    },
+    {
+        "pattern": "^South- Catch (\\d+) Pokémon\\.{0,1}$",
+        "displayText": "[南半球] 捕捉 %1$s 隻寶可夢"
+    },
+    {
+        "pattern": "^North- Catch (\\d+) Pokémon\\.{0,1}$",
+        "displayText": "[北半球] 捕捉 %1$s 隻寶可夢"
+    },
+    {
+        "pattern": "^Hatch an Egg\\.{0,1}$",
+        "displayText": "孵化 1 顆蛋"
+    },
+    {
+        "pattern": "^Hatch (\\d+) Eggs\\.{0,1}$",
+        "displayText": "孵化 %1$s 顆蛋"
+    },
+    {
+        "pattern": "^Transfer a Pokémon\\.{0,1}$",
+        "displayText": "傳送 1 隻寶可夢"
+    },
+    {
+        "pattern": "^Transfer (\\d+) Pokémon\\.{0,1}$",
+        "displayText": "傳送 %1$s 隻寶可夢"
+    },
+    {
+        "pattern": "^Take a snapshot of a wild Pokémon\\.{0,1}$",
+        "displayText": "為野生寶可夢拍攝 1 張照片"
+    },
+    {
+        "pattern": "^Take (\\d+) snapshots of wild Pokémon\\.{0,1}$",
+        "displayText": "為野生寶可夢拍攝 %1$s 張照片"
+    },
+    {
+        "pattern": "^Take (\\d+) snapshots of a wild Pokémon\\.{0,1}$",
+        "displayText": "為野生寶可夢拍攝 %1$s 張照片"
+    },
+    {
+        "pattern": "^Take a snapshot of a wild (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "為野生%1$s寶可夢拍攝 1 張照片"
+    },
+    {
+        "pattern": "Take (\\d+) snapshots of wild (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "為野生%2$s系寶可夢拍攝 %1$s 張照片"
+    },
+    {
+        "pattern": "Take a snapshot of (\\w+), (\\w+) or (\\w+) in the wild\\.{0,1}$",
+        "displayText": "為野生的##POKEMON_%1$s##、##POKEMON_%2$s##或##POKEMON_%3$s##拍攝 1 張照片"
+    },
+    {
+        "pattern": "^Take a snapshot of your buddy\\.{0,1}$",
+        "displayText": "為夥伴拍攝 1 張照片"
+    },
+    {
+        "pattern": "Take a snapshot of an? (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "為%1$s系寶可夢拍攝 1 張照片"
+    },
+    {
+        "pattern": "Take (\\d+) snapshots of (\\w+-type) Pokémon\\.{0,1}$",
+        "displayText": "為%2$s系寶可夢拍攝 %1$s 張照片"
+    },
+    {
+        "pattern": "^Give your buddy (\\d+) treats\\.{0,1}$",
+        "displayText": "餵夥伴吃 %1$s 個點心"
+    },
+    {
+        "pattern": "^Feed your buddy (\\d+) times\\.{0,1}$",
+        "displayText": "餵夥伴吃 %1$s 個點心"
+    },
+    {
+        "pattern": "^Play with your buddy\\.{0,1}$",
+        "displayText": "和夥伴一起玩"
+    },
+    {
+        "pattern": "^Earn (\\d+) hearts with your buddy\\.{0,1}$",
+        "displayText": "和夥伴獲得 %1$s 顆心心"
+    },
+    {
+        "pattern": "^Earn a candy walking with your buddy\\.{0,1}$",
+        "displayText": "和夥伴一起走路，取得 1 顆糖果"
+    },
+    {
+        "pattern": "^Earn (\\d+) candies walking with your buddy\\.{0,1}$",
+        "displayText": "和夥伴一起走路，取得 %1$s 顆糖果"
+    },
+    {
+        "pattern": "^South- Earn a candy walking with your buddy\\.{0,1}$",
+        "displayText": "[南半球] 和夥伴一起走路，取得 1 顆糖果"
+    },
+    {
+        "pattern": "^South- Earn (\\d+) candies walking with your buddy\\.{0,1}$",
+        "displayText": "[南半球] 和夥伴一起走路，取得 %1$s 顆糖果"
+    },
+    {
+        "pattern": "^North- Earn a candy walking with your buddy\\.{0,1}$",
+        "displayText": "[北半球] 和夥伴一起走路，取得 1 顆糖果"
+    },
+    {
+        "pattern": "^North- Earn (\\d+) candies walking with your buddy\\.{0,1}$",
+        "displayText": "[北半球] 和夥伴一起走路，取得 %1$s 顆糖果"
+    },
+    {
+        "pattern": "^Make (\\d+) Curveball Throws in a row\\.{0,1}$",
+        "displayText": "連續投出 %1$s 次曲球"
+    },
+    {
+        "pattern": "^Make (\\d+) (\\w+) Curveball Throws in a row\\.{0,1}$",
+        "displayText": "連續用曲球投出 %1$s 次 %2$s"
+    },
+    {
+        "pattern": "^Make an? (\\w+) Throw\\.{0,1}$",
+        "displayText": "投出 1 次 %1$s"
+    },
+    {
+        "pattern": "^Make (\\d+) Curveball Throws\\.{0,1}$",
+        "displayText": "投出 %1$s 次曲球"
+    },
+    {
+        "pattern": "^Make (\\d+) (\\w+) Throws\\.{0,1}$",
+        "displayText": "投出 %1$s 次 %2$s"
+    },
+    {
+        "pattern": "^Make (\\d+) (\\w+) Curveball Throws\\.{0,1}$",
+        "displayText": "用曲球投出 %1$s 次 %2$s"
+    },
+    {
+        "pattern": "^Make (\\d+) (\\w+) Throws in a row\\.{0,1}$",
+        "displayText": "連續投出 %1$s 次 %2$s"
+    },
+    {
+        "pattern": "^Use (\\d+) Berries (while catching|to help catch) Pokémon\\.{0,1}$",
+        "displayText": "在捕捉寶可夢時使用 %1$s 顆莓果"
+    },
+    {
+        "pattern": "^Use (\\d+) Nanab Berries (while catching|to help catch) Pokémon\\.{0,1}$",
+        "displayText": "在捕捉寶可夢時使用 %1$s 顆蕉香果"
+    },
+    {
+        "pattern": "^Use (\\d+) Razz Berries (while catching|to help catch) Pokémon\\.{0,1}$",
+        "displayText": "在捕捉寶可夢時使用 %1$s 顆蔓莓果"
+    },
+    {
+        "pattern": "^Use (\\d+) Pinap Berries (while catching|to help catch) Pokémon\\.{0,1}$",
+        "displayText": "在捕捉寶可夢時使用 %1$s 顆凰梨果"
+    },
+    {
+        "pattern": "^Use (\\d+) Golden Razz Berries (while catching|to help catch) Pokémon\\.{0,1}$",
+        "displayText": "在捕捉寶可夢時使用 %1$s 顆金莓果"
+    },
+    {
+        "pattern": "^(Defeat|Battle) a Team GO Rocket (members|grunt)\\.{0,1}$",
+        "displayText": "打敗 1 個 GO 火箭隊手下"
+    },
+    {
+        "pattern": "^(Defeat|Battle) (\\d+) Team GO Rocket (members|grunts)\\.{0,1}$",
+        "displayText": "打敗 %2$s 個 GO 火箭隊手下"
+    },
+    {
+        "pattern": "^(Defeat|Battle) a Team GO Rocket Leader\\.{0,1}$",
+        "displayText": "打敗 1 個 GO 火箭隊隊長"
+    },
+    {
+        "pattern": "^(Defeat|Battle) (\\d+) Team GO Rocket Leaders\\.{0,1}$",
+        "displayText": "打敗 %2$s 個 GO 火箭隊隊長"
+    },
+    {
+        "pattern": "^Win a raid\\.{0,1}$",
+        "displayText": "團體戰勝利 1 次"
+    },
+    {
+        "pattern": "^Win (\\d+) raids\\.{0,1}$",
+        "displayText": "團體戰勝利 %1$s 次"
+    },
+    {
+        "pattern": "^Win a level 3 or higher raid\\.{0,1}$",
+        "displayText": "在等級三以上的團體戰中獲勝 1 次"
+    },
+    {
+        "pattern": "^Win a three-star raid or higher\\.{0,1}$",
+        "displayText": "在三星以上的團體戰中獲勝 1 次"
+    },
+    {
+        "pattern": "^Win a raid in under 60 seconds\\.{0,1}$",
+        "displayText": "在 60 秒內獲得團體戰勝利"
+    },
+    {
+        "pattern": "^Win a raid in under 10 minutes\\.{0,1}$",
+        "displayText": "在 10 分內獲得團體戰勝利"
+    },
+    {
+        "pattern": "^Battle in (?:the )?GO Battle League\\.{0,1}$",
+        "displayText": "在 GO 對戰聯盟進行對戰 1 次"
+    },
+    {
+        "pattern": "^Battle in (?:the )?GO Battle League (\\d+) times\\.{0,1}$",
+        "displayText": "在 GO 對戰聯盟進行對戰 %1$s 次"
+    },
+    {
+        "pattern": "^Win in (?:the )?GO Battle League\\.{0,1}$",
+        "displayText": "在 GO 對戰聯盟獲得 1 場勝利"
+    },
+    {
+        "pattern": "^Win a Trainer Battle in (?:the )?GO Battle League\\.{0,1}$",
+        "displayText": "在 GO 對戰聯盟的訓練家對戰中獲勝 1 次"
+    },
+    {
+        "pattern": "^(Send|Sent) a Gift to a friend\\.{0,1}$",
+        "displayText": "發送 1 個友情禮物"
+    },
+    {
+        "pattern": "^(Send|Sent) (\\d+) Gifts to friends\\.{0,1}$",
+        "displayText": "發送 %2$s 個友情禮物"
+    },
+    {
+        "pattern": "^(Send|Sent) (\\d+) Gifts and add a sticker to each\\.{0,1}$",
+        "displayText": "發送 %2$s 個貼了貼紙的友情禮物"
+    },
+    {
+        "pattern": "^Open (\\d+) Gifts\\.{0,1}$",
+        "displayText": "開啟 %1$s 個友情禮物"
+    },
+    {
+        "pattern": "^Trade a Pokémon\\.{0,1}$",
+        "displayText": "交換 1 次寶可夢"
+    },
+    {
+        "pattern": "^Battle another Trainer\\.{0,1}$",
+        "displayText": "與其他訓練家對戰 1 次"
+    },
+    {
+        "pattern": "^Spin (\\d+) PokéStops or Gyms\\.{0,1}$",
+        "displayText": "旋轉 %1$s 個寶可補給站或道館"
+    },
+    {
+        "pattern": "^Use an Incense\\.{0,1}$",
+        "displayText": "使用 1 個薰香"
+    },
+    {
+        "pattern": "^Walk (\\d+) km\\.{0,1}$",
+        "displayText": "行走 %1$s 公里"
+    },
+    {
+        "pattern": "^AR Mapping\\.{0,1}$",
+        "displayText": "AR Mapping"
+    }
+]
