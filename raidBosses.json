@@ -1,0 +1,336 @@
+[
+  {
+    "tier": "1",
+    "no": 79,
+    "name": "呆呆獸 (伽勒爾地區)",
+    "originalName": "Galarian Slowpoke",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_079_31.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 650,
+      "max": 700
+    },
+    "boostedCp": {
+      "min": 812,
+      "max": 876
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 109,
+    "name": "瓦斯彈",
+    "originalName": "Koffing",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_109_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "poison"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png"
+    ],
+    "cp": {
+      "min": 645,
+      "max": 694
+    },
+    "boostedCp": {
+      "min": 806,
+      "max": 867
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 280,
+    "name": "拉魯拉絲",
+    "originalName": "Ralts",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_280_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png",
+      "https://leekduck.com/assets/img/types/fairy.png"
+    ],
+    "cp": {
+      "min": 275,
+      "max": 308
+    },
+    "boostedCp": {
+      "min": 344,
+      "max": 385
+    },
+    "boostedWeathers": [
+      "windy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 453,
+    "name": "不良蛙",
+    "originalName": "Croagunk",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_453_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png",
+      "https://leekduck.com/assets/img/types/fighting.png"
+    ],
+    "cp": {
+      "min": 500,
+      "max": 544
+    },
+    "boostedCp": {
+      "min": 625,
+      "max": 680
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 677,
+    "name": "妙喵",
+    "originalName": "Espurr",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_677_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 669,
+      "max": 719
+    },
+    "boostedCp": {
+      "min": 837,
+      "max": 899
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 40,
+    "name": "胖可丁",
+    "originalName": "Wigglytuff",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_040_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/normal.png",
+      "https://leekduck.com/assets/img/types/fairy.png"
+    ],
+    "cp": {
+      "min": 1034,
+      "max": 1101
+    },
+    "boostedCp": {
+      "min": 1293,
+      "max": 1376
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 452,
+    "name": "龍王蠍",
+    "originalName": "Drapion",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_452_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png",
+      "https://leekduck.com/assets/img/types/dark.png"
+    ],
+    "cp": {
+      "min": 1331,
+      "max": 1401
+    },
+    "boostedCp": {
+      "min": 1665,
+      "max": 1752
+    },
+    "boostedWeathers": [
+      "cloudy",
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png",
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 575,
+    "name": "哥德小童",
+    "originalName": "Gothorita",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pokemon_icon_575_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 860,
+      "max": 916
+    },
+    "boostedCp": {
+      "min": 1075,
+      "max": 1146
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 780,
+    "name": "老翁龍",
+    "originalName": "Drampa",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pm780.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/normal.png",
+      "https://leekduck.com/assets/img/types/dragon.png"
+    ],
+    "cp": {
+      "min": 1588,
+      "max": 1665
+    },
+    "boostedCp": {
+      "min": 1985,
+      "max": 2081
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 786,
+    "name": "卡璞・蝶蝶",
+    "originalName": "Tapu Lele",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pm786.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png",
+      "https://leekduck.com/assets/img/types/fairy.png"
+    ],
+    "cp": {
+      "min": 1912,
+      "max": 1996
+    },
+    "boostedCp": {
+      "min": 2390,
+      "max": 2496
+    },
+    "boostedWeathers": [
+      "windy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "mega",
+    "no": 3,
+    "name": "妙蛙花 (Mega 妙蛙花)",
+    "originalName": "Mega Venusaur",
+    "imageUrl": "https://leekduck.com/assets/img/pokemon_icons/pm3.fMEGA.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/grass.png",
+      "https://leekduck.com/assets/img/types/poison.png"
+    ],
+    "cp": {
+      "min": 1480,
+      "max": 1554
+    },
+    "boostedCp": {
+      "min": 1851,
+      "max": 1943
+    },
+    "boostedWeathers": [
+      "sunny",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  }
+]
