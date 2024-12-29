@@ -60,12 +60,9 @@ const getEvents = async () => {
     const title = translateEventTitle(originalTitle);
     const link = urlJoin(hostUrl, eventItem.getAttribute('href')!);
     const type = typeMapping(eventItem.querySelector('.event-item-wrapper p')?.rawText!);
-    const imageUrl = urlJoin(
-      hostUrl,
-      '/assets/img/events',
-      //   src: 'https://leekduck.com/cdn-cgi/image/fit=scale-down,height=95,quality=100,format=webp/assets/img/events/raidhour.jpg',
-      // regex: '/raidhour.jpg'
-      eventItem.querySelector('.event-img-wrapper img')?.getAttribute('src')!.match(/.+(?<filename>\/.+)$/)?.groups?.filename!,
+    const imageUrl = new URL(
+      eventItem.querySelector('.event-img-wrapper img')?.getAttribute('src')!,
+      hostUrl
     );
     const countdownNode = eventItem.querySelector('.event-countdown');
     const countdownTo = countdownNode?.getAttribute('data-countdown-to')!;
