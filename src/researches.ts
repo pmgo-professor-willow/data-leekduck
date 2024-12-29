@@ -86,7 +86,7 @@ const getRewardPokemons = (researchItem: HTMLElement) => {
   const rewardPokemonItems = researchItem.querySelectorAll('.reward-list .reward[data-reward-type="encounter"]');
   const rewardPokemons: RewardPokemon[] = rewardPokemonItems.map((rewardPokemonItem) => {
     const imageUrlRaw = rewardPokemonItem.querySelector('img')?.getAttribute('src')!;
-    const imageUrl = new URL(`/research/${imageUrlRaw}`, hostUrl).href;
+    const imageUrl = new URL(imageUrlRaw, hostUrl).href;
 
     // No.
     let no = -1;
@@ -133,7 +133,7 @@ const getRewardPokemonMegaCandies = (researchItem: HTMLElement) => {
   const rewards: RewardPokemonMegaCandy[] = rewardItems.map((rewardItem) => {
     // Images.
     const imageUrlRaw = rewardItem.querySelector('.resource-info img.reward-image')?.getAttribute('src')!;
-    const imageUrl = new URL(`/research/${imageUrlRaw}`, hostUrl).href;
+    const imageUrl = new URL(imageUrlRaw, hostUrl).href;
     const megaCandyImageUrlRaw = rewardItem.querySelector('img.reward-image')?.getAttribute('src')!;
     const megaCandyImageUrl = new URL(`/research/${megaCandyImageUrlRaw}`, hostUrl).href;
 
