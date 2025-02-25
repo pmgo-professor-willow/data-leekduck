@@ -1,0 +1,376 @@
+[
+  {
+    "tier": "1",
+    "no": 83,
+    "name": "大蔥鴨 (伽勒爾地區)",
+    "originalName": "Galarian Farfetch'd",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_083_31.png",
+    "shinyAvailable": true,
+    "types": [
+      "fighting"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/fighting.png"
+    ],
+    "cp": {
+      "min": 898,
+      "max": 956
+    },
+    "boostedCp": {
+      "min": 1123,
+      "max": 1196
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 333,
+    "name": "青綿鳥",
+    "originalName": "Swablu",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_333_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/normal.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 429,
+      "max": 470
+    },
+    "boostedCp": {
+      "min": 537,
+      "max": 588
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 627,
+    "name": "毛頭小鷹",
+    "originalName": "Rufflet",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_627_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/normal.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 796,
+      "max": 852
+    },
+    "boostedCp": {
+      "min": 996,
+      "max": 1065
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 686,
+    "name": "好啦魷",
+    "originalName": "Inkay",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_686_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dark.png",
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 486,
+      "max": 529
+    },
+    "boostedCp": {
+      "min": 608,
+      "max": 662
+    },
+    "boostedWeathers": [
+      "foggy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 731,
+    "name": "小篤兒",
+    "originalName": "Pikipek",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm731.icon.png",
+    "shinyAvailable": false,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/normal.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 476,
+      "max": 520
+    },
+    "boostedCp": {
+      "min": 595,
+      "max": 650
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 398,
+    "name": "姆克鷹",
+    "originalName": "Staraptor",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_398_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/normal.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 1538,
+      "max": 1614
+    },
+    "boostedCp": {
+      "min": 1922,
+      "max": 2018
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 628,
+    "name": "勇士雄鷹 (洗翠地區)",
+    "originalName": "Hisuian Braviary",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm628.fHISUIAN.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/psychic.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 1531,
+      "max": 1608
+    },
+    "boostedCp": {
+      "min": 1914,
+      "max": 2010
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 662,
+    "name": "火箭雀",
+    "originalName": "Fletchinder",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_662_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/fire.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 785,
+      "max": 839
+    },
+    "boostedCp": {
+      "min": 981,
+      "max": 1049
+    },
+    "boostedWeathers": [
+      "sunny",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 962,
+    "name": "下石鳥",
+    "originalName": "Bombirdier",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm962.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/flying.png",
+      "https://leekduck.com/assets/img/types/dark.png"
+    ],
+    "cp": {
+      "min": 1351,
+      "max": 1421
+    },
+    "boostedCp": {
+      "min": 1688,
+      "max": 1777
+    },
+    "boostedWeathers": [
+      "windy",
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png",
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 716,
+    "name": "哲爾尼亞斯",
+    "originalName": "Xerneas",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm716.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "fairy"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/fairy.png"
+    ],
+    "cp": {
+      "min": 2073,
+      "max": 2160
+    },
+    "boostedCp": {
+      "min": 2591,
+      "max": 2701
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 717,
+    "name": "伊裴爾塔爾",
+    "originalName": "Yveltal",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm717.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dark.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 2073,
+      "max": 2160
+    },
+    "boostedCp": {
+      "min": 2591,
+      "max": 2701
+    },
+    "boostedWeathers": [
+      "foggy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "mega",
+    "no": 445,
+    "name": "烈咬陸鯊 (Mega 烈咬陸鯊)",
+    "originalName": "Mega Garchomp",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm445.fMEGA.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dragon.png",
+      "https://leekduck.com/assets/img/types/ground.png"
+    ],
+    "cp": {
+      "min": 2174,
+      "max": 2264
+    },
+    "boostedCp": {
+      "min": 2718,
+      "max": 2830
+    },
+    "boostedWeathers": [
+      "windy",
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png",
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  }
+]
