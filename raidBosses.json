@@ -1,0 +1,272 @@
+[
+  {
+    "tier": "1",
+    "no": 361,
+    "name": "雪童子",
+    "originalName": "Snorunt",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_361_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "ice"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ice.png"
+    ],
+    "cp": {
+      "min": 465,
+      "max": 507
+    },
+    "boostedCp": {
+      "min": 581,
+      "max": 634
+    },
+    "boostedWeathers": [
+      "snowy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/snowy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 554,
+    "name": "火紅不倒翁 (伽勒爾地區)",
+    "originalName": "Galarian Darumaka",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_554_31.png",
+    "shinyAvailable": true,
+    "types": [
+      "ice"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ice.png"
+    ],
+    "cp": {
+      "min": 768,
+      "max": 823
+    },
+    "boostedCp": {
+      "min": 961,
+      "max": 1030
+    },
+    "boostedWeathers": [
+      "snowy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/snowy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 568,
+    "name": "破破袋",
+    "originalName": "Trubbish",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_568_00.png",
+    "shinyAvailable": true,
+    "types": [
+      "poison"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png"
+    ],
+    "cp": {
+      "min": 526,
+      "max": 571
+    },
+    "boostedCp": {
+      "min": 658,
+      "max": 714
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 714,
+    "name": "嗡蝠",
+    "originalName": "Noibat",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm714.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/flying.png",
+      "https://leekduck.com/assets/img/types/dragon.png"
+    ],
+    "cp": {
+      "min": 344,
+      "max": 381
+    },
+    "boostedCp": {
+      "min": 430,
+      "max": 476
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 42,
+    "name": "大嘴蝠",
+    "originalName": "Golbat",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_042_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 1066,
+      "max": 1129
+    },
+    "boostedCp": {
+      "min": 1333,
+      "max": 1412
+    },
+    "boostedWeathers": [
+      "cloudy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 317,
+    "name": "吞食獸",
+    "originalName": "Swalot",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_317_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "poison"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png"
+    ],
+    "cp": {
+      "min": 1066,
+      "max": 1130
+    },
+    "boostedCp": {
+      "min": 1333,
+      "max": 1413
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 435,
+    "name": "坦克臭鼬",
+    "originalName": "Skuntank",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pokemon_icon_435_00.png",
+    "shinyAvailable": false,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/poison.png",
+      "https://leekduck.com/assets/img/types/dark.png"
+    ],
+    "cp": {
+      "min": 1278,
+      "max": 1347
+    },
+    "boostedCp": {
+      "min": 1597,
+      "max": 1684
+    },
+    "boostedWeathers": [
+      "cloudy",
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png",
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 787,
+    "name": "卡璞・哞哞",
+    "originalName": "Tapu Bulu",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm787.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/grass.png",
+      "https://leekduck.com/assets/img/types/fairy.png"
+    ],
+    "cp": {
+      "min": 1870,
+      "max": 1953
+    },
+    "boostedCp": {
+      "min": 2338,
+      "max": 2442
+    },
+    "boostedWeathers": [
+      "sunny",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "mega",
+    "no": 334,
+    "name": "七夕青鳥 (Mega 七夕青鳥)",
+    "originalName": "Mega Altaria",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm334.fMEGA.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dragon.png",
+      "https://leekduck.com/assets/img/types/fairy.png"
+    ],
+    "cp": {
+      "min": 1081,
+      "max": 1145
+    },
+    "boostedCp": {
+      "min": 1352,
+      "max": 1432
+    },
+    "boostedWeathers": [
+      "windy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  }
+]
