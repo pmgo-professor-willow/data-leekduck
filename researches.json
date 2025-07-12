@@ -1,0 +1,1794 @@
+[
+  {
+    "description": "捕捉 7 隻寶可夢",
+    "originalDescription": "Catch 7 Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [
+      {
+        "no": 129,
+        "name": "鯉魚王",
+        "originalName": "Magikarp",
+        "cp": {
+          "min": 99,
+          "max": 117
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm129.icon.png"
+      },
+      {
+        "no": 759,
+        "name": "童偶熊",
+        "originalName": "Stufful",
+        "cp": {
+          "min": 540,
+          "max": 579
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm759.icon.png"
+      },
+      {
+        "no": 767,
+        "name": "膽小蟲",
+        "originalName": "Wimpod",
+        "cp": {
+          "min": 191,
+          "max": 215
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm767.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 10 隻寶可夢",
+    "originalDescription": "Catch 10 Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 1 隻龍系寶可夢",
+    "originalDescription": "Catch a Dragon-type Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [
+      {
+        "no": 147,
+        "name": "迷你龍",
+        "originalName": "Dratini",
+        "cp": {
+          "min": 397,
+          "max": 430
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm147.icon.png"
+      },
+      {
+        "no": 371,
+        "name": "寶貝龍",
+        "originalName": "Bagon",
+        "cp": {
+          "min": 459,
+          "max": 495
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm371.icon.png"
+      },
+      {
+        "no": 610,
+        "name": "牙牙",
+        "originalName": "Axew",
+        "cp": {
+          "min": 547,
+          "max": 586
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm610.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 1 隻百變怪",
+    "originalDescription": "Catch a Ditto",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 10 隻一般系寶可夢",
+    "originalDescription": "Catch 10 Normal-type Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": [
+      {
+        "no": 18,
+        "name": "大比鳥",
+        "originalName": "Pidgeot",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm18.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Pidgeot%20Mega%20Energy.png"
+      }
+    ]
+  },
+  {
+    "description": "捕捉 10 隻火系寶可夢",
+    "originalDescription": "Catch 10 Fire-type Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": [
+      {
+        "no": 6,
+        "name": "噴火龍",
+        "originalName": "Charizard",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm6.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Charizard%20Mega%20Energy.png"
+      },
+      {
+        "no": 257,
+        "name": "火焰雞",
+        "originalName": "Blaziken",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm257.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Blaziken%20Mega%20Energy.png"
+      }
+    ]
+  },
+  {
+    "description": "捕捉 10 隻草系寶可夢",
+    "originalDescription": "Catch 10 Grass-type Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": [
+      {
+        "no": 3,
+        "name": "妙蛙花",
+        "originalName": "Venusaur",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm3.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Venusaur%20Mega%20Energy.png"
+      },
+      {
+        "no": 254,
+        "name": "蜥蜴王",
+        "originalName": "Sceptile",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm254.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Sceptile%20Mega%20Energy.png"
+      }
+    ]
+  },
+  {
+    "description": "捕捉 10 隻水系寶可夢",
+    "originalDescription": "Catch 10 Water-type Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": [
+      {
+        "no": 9,
+        "name": "水箭龜",
+        "originalName": "Blastoise",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm9.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Blastoise%20Mega%20Energy.png"
+      },
+      {
+        "no": 260,
+        "name": "巨沼怪",
+        "originalName": "Swampert",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm260.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Swampert%20Mega%20Energy.png"
+      }
+    ]
+  },
+  {
+    "description": "捕捉 7 種不同的寶可夢",
+    "originalDescription": "Catch 7 different species of Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [
+      {
+        "no": 618,
+        "name": "泥巴魚",
+        "originalName": "Stunfisk",
+        "cp": {
+          "min": 876,
+          "max": 926
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.icon.png"
+      },
+      {
+        "no": 690,
+        "name": "垃垃藻",
+        "originalName": "Skrelp",
+        "cp": {
+          "min": 421,
+          "max": 455
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm690.icon.png"
+      },
+      {
+        "no": 766,
+        "name": "投擲猴",
+        "originalName": "Passimian",
+        "cp": {
+          "min": 1241,
+          "max": 1300
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm766.icon.png"
+      },
+      {
+        "no": 769,
+        "name": "沙丘娃",
+        "originalName": "Sandygast",
+        "cp": {
+          "min": 491,
+          "max": 528
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm769.icon.png"
+      },
+      {
+        "no": 821,
+        "name": "稚山雀",
+        "originalName": "Rookidee",
+        "cp": {
+          "min": 258,
+          "max": 285
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm821.icon.png"
+      },
+      {
+        "no": 827,
+        "name": "偷兒狐",
+        "originalName": "Nickit",
+        "cp": {
+          "min": 278,
+          "max": 306
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm827.icon.png"
+      },
+      {
+        "no": 856,
+        "name": "迷布莉姆",
+        "originalName": "Hatenna",
+        "cp": {
+          "min": 338,
+          "max": 369
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm856.icon.png"
+      },
+      {
+        "no": 928,
+        "name": "迷你芙",
+        "originalName": "Smoliv",
+        "cp": {
+          "min": 335,
+          "max": 366
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm928.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 5 隻具有天氣優勢的寶可夢",
+    "originalDescription": "Catch 5 Pokémon with Weather Boost",
+    "category": "捕捉",
+    "rewardPokemons": [
+      {
+        "no": 37,
+        "name": "六尾",
+        "originalName": "Vulpix",
+        "cp": {
+          "min": 347,
+          "max": 378
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm37.icon.png"
+      },
+      {
+        "no": 60,
+        "name": "蚊香蝌蚪",
+        "originalName": "Poliwag",
+        "cp": {
+          "min": 324,
+          "max": 355
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm60.icon.png"
+      },
+      {
+        "no": 278,
+        "name": "長翅鷗",
+        "originalName": "Wingull",
+        "cp": {
+          "min": 298,
+          "max": 328
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm278.icon.png"
+      },
+      {
+        "no": 449,
+        "name": "沙河馬",
+        "originalName": "Hippopotas",
+        "cp": {
+          "min": 542,
+          "max": 582
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm449.icon.png"
+      },
+      {
+        "no": 459,
+        "name": "雪笠怪",
+        "originalName": "Snover",
+        "cp": {
+          "min": 460,
+          "max": 497
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm459.icon.png"
+      },
+      {
+        "no": 524,
+        "name": "石丸子",
+        "originalName": "Roggenrola",
+        "cp": {
+          "min": 479,
+          "max": 516
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm524.icon.png"
+      },
+      {
+        "no": 582,
+        "name": "迷你冰",
+        "originalName": "Vanillite",
+        "cp": {
+          "min": 409,
+          "max": 443
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm582.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 10 隻具有天氣優勢的寶可夢",
+    "originalDescription": "Catch 10 Pokémon with Weather Boost",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "在捕捉寶可夢時使用 5 顆莓果",
+    "originalDescription": "Use 5 Berries to help catch Pokémon",
+    "category": "捕捉",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續投出 5 次曲球",
+    "originalDescription": "Make 5 Curveball Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "投出 5 次 Nice",
+    "originalDescription": "Make 5 Nice Throws",
+    "category": "投球",
+    "rewardPokemons": [
+      {
+        "no": 50,
+        "name": "地鼠",
+        "originalName": "Diglett",
+        "cp": {
+          "min": 262,
+          "max": 289
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm50.icon.png"
+      },
+      {
+        "no": 50,
+        "name": "地鼠",
+        "originalName": "Diglett",
+        "cp": {
+          "min": 264,
+          "max": 292
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm50.fALOLA.icon.png"
+      },
+      {
+        "no": 185,
+        "name": "樹才怪",
+        "originalName": "Sudowoodo",
+        "cp": {
+          "min": 871,
+          "max": 920
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm185.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續投出 3 次 Nice",
+    "originalDescription": "Make 3 Nice Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續用曲球投出 2 次 Nice",
+    "originalDescription": "Make 2 Nice Curveball Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "投出 3 次 Great",
+    "originalDescription": "Make 3 Great Throws",
+    "category": "投球",
+    "rewardPokemons": [
+      {
+        "no": 138,
+        "name": "菊石獸",
+        "originalName": "Omanyte",
+        "cp": {
+          "min": 620,
+          "max": 662
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm138.icon.png"
+      },
+      {
+        "no": 140,
+        "name": "化石盔",
+        "originalName": "Kabuto",
+        "cp": {
+          "min": 548,
+          "max": 587
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm140.icon.png"
+      },
+      {
+        "no": 366,
+        "name": "珍珠貝",
+        "originalName": "Clamperl",
+        "cp": {
+          "min": 507,
+          "max": 544
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm366.icon.png"
+      },
+      {
+        "no": 605,
+        "name": "小灰怪",
+        "originalName": "Elgyem",
+        "cp": {
+          "min": 554,
+          "max": 593
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm605.icon.png"
+      },
+      {
+        "no": 688,
+        "name": "龜腳腳",
+        "originalName": "Binacle",
+        "cp": {
+          "min": 373,
+          "max": 405
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm688.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續投出 3 次 Great",
+    "originalDescription": "Make 3 Great Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [
+      {
+        "no": 345,
+        "name": "觸手百合",
+        "originalName": "Lileep",
+        "cp": {
+          "min": 515,
+          "max": 553
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm345.icon.png"
+      },
+      {
+        "no": 347,
+        "name": "太古羽蟲",
+        "originalName": "Anorith",
+        "cp": {
+          "min": 613,
+          "max": 655
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm347.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "用曲球投出 3 次 Great",
+    "originalDescription": "Make 3 Great Curveball Throws",
+    "category": "投球",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續用曲球投出 3 次 Great",
+    "originalDescription": "Make 3 Great Curveball Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續用曲球投出 5 次 Great",
+    "originalDescription": "Make 5 Great Curveball Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [
+      {
+        "no": 327,
+        "name": "晃晃斑",
+        "originalName": "Spinda",
+        "cp": {
+          "min": 486,
+          "max": 523
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f01.icon.png"
+      },
+      {
+        "no": 327,
+        "name": "晃晃斑",
+        "originalName": "Spinda",
+        "cp": {
+          "min": 486,
+          "max": 523
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm327.f02.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "投出 1 次 Excellent",
+    "originalDescription": "Make an Excellent Throw",
+    "category": "投球",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "投出 2 次 Excellent",
+    "originalDescription": "Make 2 Excellent Throws",
+    "category": "投球",
+    "rewardPokemons": [
+      {
+        "no": 782,
+        "name": "心鱗寶",
+        "originalName": "Jangmo-o",
+        "cp": {
+          "min": 382,
+          "max": 415
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm782.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "連續投出 3 次 Excellent",
+    "originalDescription": "Make 3 Excellent Throws in a row",
+    "category": "投球",
+    "rewardPokemons": [
+      {
+        "no": 246,
+        "name": "幼基拉斯",
+        "originalName": "Larvitar",
+        "cp": {
+          "min": 411,
+          "max": 445
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm246.icon.png"
+      },
+      {
+        "no": 374,
+        "name": "鐵啞鈴",
+        "originalName": "Beldum",
+        "cp": {
+          "min": 385,
+          "max": 418
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm374.icon.png"
+      },
+      {
+        "no": 443,
+        "name": "圓陸鯊",
+        "originalName": "Gible",
+        "cp": {
+          "min": 441,
+          "max": 477
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm443.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "在 GO 對戰聯盟的訓練家對戰中獲勝 1 次",
+    "originalDescription": "Win a Trainer Battle in the GO Battle League",
+    "category": "對戰",
+    "rewardPokemons": [
+      {
+        "no": 131,
+        "name": "拉普拉斯",
+        "originalName": "Lapras",
+        "cp": {
+          "min": 1076,
+          "max": 1131
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm131.icon.png"
+      },
+      {
+        "no": 325,
+        "name": "跳跳豬",
+        "originalName": "Spoink",
+        "cp": {
+          "min": 533,
+          "max": 571
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm325.icon.png"
+      },
+      {
+        "no": 629,
+        "name": "禿鷹丫頭",
+        "originalName": "Vullaby",
+        "cp": {
+          "min": 506,
+          "max": 545
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm629.icon.png"
+      },
+      {
+        "no": 686,
+        "name": "好啦魷",
+        "originalName": "Inkay",
+        "cp": {
+          "min": 365,
+          "max": 397
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm686.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "團體戰勝利 1 次",
+    "originalDescription": "Win a raid",
+    "category": "對戰",
+    "rewardPokemons": [
+      {
+        "no": 123,
+        "name": "飛天螳螂",
+        "originalName": "Scyther",
+        "cp": {
+          "min": 1104,
+          "max": 1160
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png"
+      },
+      {
+        "no": 303,
+        "name": "大嘴娃",
+        "originalName": "Mawile",
+        "cp": {
+          "min": 658,
+          "max": 700
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm303.icon.png"
+      },
+      {
+        "no": 677,
+        "name": "妙喵",
+        "originalName": "Espurr",
+        "cp": {
+          "min": 502,
+          "max": 539
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm677.icon.png"
+      },
+      {
+        "no": 744,
+        "name": "岩狗狗",
+        "originalName": "Rockruff",
+        "cp": {
+          "min": 374,
+          "max": 407
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm744.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "在三星以上的團體戰中獲勝 1 次",
+    "originalDescription": "Win a three-star raid or higher",
+    "category": "對戰",
+    "rewardPokemons": [
+      {
+        "no": 564,
+        "name": "原蓋海龜",
+        "originalName": "Tirtouga",
+        "cp": {
+          "min": 597,
+          "max": 638
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm564.icon.png"
+      },
+      {
+        "no": 566,
+        "name": "始祖小鳥",
+        "originalName": "Archen",
+        "cp": {
+          "min": 741,
+          "max": 789
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm566.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "團體戰勝利 5 次",
+    "originalDescription": "Win 5 raids",
+    "category": "對戰",
+    "rewardPokemons": [
+      {
+        "no": 103,
+        "name": "椰蛋樹",
+        "originalName": "Exeggutor",
+        "cp": {
+          "min": 1233,
+          "max": 1292
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm103.fALOLA.icon.png"
+      },
+      {
+        "no": 105,
+        "name": "嘎啦嘎啦",
+        "originalName": "Marowak",
+        "cp": {
+          "min": 741,
+          "max": 786
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm105.fALOLA.icon.png"
+      },
+      {
+        "no": 142,
+        "name": "化石翼龍",
+        "originalName": "Aerodactyl",
+        "cp": {
+          "min": 1136,
+          "max": 1193
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm142.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "Win a Max Battle",
+    "originalDescription": "Win a Max Battle",
+    "category": "對戰",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "進化 1 隻寶可夢",
+    "originalDescription": "Evolve a Pokémon",
+    "category": "訓練",
+    "rewardPokemons": [
+      {
+        "no": 133,
+        "name": "伊布",
+        "originalName": "Eevee",
+        "cp": {
+          "min": 424,
+          "max": 459
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm133.icon.png"
+      },
+      {
+        "no": 241,
+        "name": "大奶罐",
+        "originalName": "Miltank",
+        "cp": {
+          "min": 957,
+          "max": 1009
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm241.icon.png"
+      },
+      {
+        "no": 359,
+        "name": "阿勃梭魯",
+        "originalName": "Absol",
+        "cp": {
+          "min": 1027,
+          "max": 1083
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm359.icon.png"
+      },
+      {
+        "no": 702,
+        "name": "咚咚鼠",
+        "originalName": "Dedenne",
+        "cp": {
+          "min": 743,
+          "max": 789
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm702.icon.png"
+      },
+      {
+        "no": 775,
+        "name": "樹枕尾熊",
+        "originalName": "Komala",
+        "cp": {
+          "min": 1052,
+          "max": 1106
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm775.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "強化寶可夢 3 次",
+    "originalDescription": "Power up Pokémon 3 times",
+    "category": "訓練",
+    "rewardPokemons": [
+      {
+        "no": 1,
+        "name": "妙蛙種子",
+        "originalName": "Bulbasaur",
+        "cp": {
+          "min": 442,
+          "max": 477
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm1.icon.png"
+      },
+      {
+        "no": 4,
+        "name": "小火龍",
+        "originalName": "Charmander",
+        "cp": {
+          "min": 387,
+          "max": 420
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm4.icon.png"
+      },
+      {
+        "no": 7,
+        "name": "傑尼龜",
+        "originalName": "Squirtle",
+        "cp": {
+          "min": 372,
+          "max": 405
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm7.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "強化寶可夢 5 次",
+    "originalDescription": "Power up Pokémon 5 times",
+    "category": "訓練",
+    "rewardPokemons": [
+      {
+        "no": 495,
+        "name": "藤藤蛇",
+        "originalName": "Snivy",
+        "cp": {
+          "min": 333,
+          "max": 364
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm495.icon.png"
+      },
+      {
+        "no": 498,
+        "name": "暖暖豬",
+        "originalName": "Tepig",
+        "cp": {
+          "min": 428,
+          "max": 464
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm498.icon.png"
+      },
+      {
+        "no": 501,
+        "name": "水水獺",
+        "originalName": "Oshawott",
+        "cp": {
+          "min": 413,
+          "max": 448
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm501.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": [
+      {
+        "no": 3,
+        "name": "妙蛙花",
+        "originalName": "Venusaur",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm3.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Venusaur%20Mega%20Energy.png"
+      },
+      {
+        "no": 6,
+        "name": "噴火龍",
+        "originalName": "Charizard",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm6.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Charizard%20Mega%20Energy.png"
+      },
+      {
+        "no": 9,
+        "name": "水箭龜",
+        "originalName": "Blastoise",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm9.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Blastoise%20Mega%20Energy.png"
+      },
+      {
+        "no": 15,
+        "name": "大針蜂",
+        "originalName": "Beedrill",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm15.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Beedrill%20Mega%20Energy.png"
+      },
+      {
+        "no": 18,
+        "name": "大比鳥",
+        "originalName": "Pidgeot",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm18.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Pidgeot%20Mega%20Energy.png"
+      },
+      {
+        "no": 310,
+        "name": "雷電獸",
+        "originalName": "Manectric",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm310.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Manectric%20Mega%20Energy.png"
+      },
+      {
+        "no": 306,
+        "name": "波士可多拉",
+        "originalName": "Aggron",
+        "count": 10,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm306.icon.png",
+        "megaCandyImageUrl": "https://leekduck.com/research//assets/img/mega_energy/Aggron%20Mega%20Energy.png"
+      }
+    ]
+  },
+  {
+    "description": "強化寶可夢 7 次",
+    "originalDescription": "Power up Pokémon 7 times",
+    "category": "訓練",
+    "rewardPokemons": [
+      {
+        "no": 722,
+        "name": "木木梟",
+        "originalName": "Rowlet",
+        "cp": {
+          "min": 418,
+          "max": 453
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm722.icon.png"
+      },
+      {
+        "no": 725,
+        "name": "火斑喵",
+        "originalName": "Litten",
+        "cp": {
+          "min": 409,
+          "max": 443
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm725.icon.png"
+      },
+      {
+        "no": 728,
+        "name": "球球海獅",
+        "originalName": "Popplio",
+        "cp": {
+          "min": 448,
+          "max": 483
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm728.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "強化寶可夢 15 次",
+    "originalDescription": "Power up Pokémon 15 times",
+    "category": "訓練",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "Earn 10000 XP",
+    "originalDescription": "Earn 10000 XP",
+    "category": "訓練",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "Earn 10000 Stardust",
+    "originalDescription": "Earn 10000 Stardust",
+    "category": "訓練",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "孵化 1 顆蛋",
+    "originalDescription": "Hatch an Egg",
+    "category": "探索",
+    "rewardPokemons": [
+      {
+        "no": 123,
+        "name": "飛天螳螂",
+        "originalName": "Scyther",
+        "cp": {
+          "min": 1104,
+          "max": 1160
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm123.icon.png"
+      },
+      {
+        "no": 185,
+        "name": "樹才怪",
+        "originalName": "Sudowoodo",
+        "cp": {
+          "min": 871,
+          "max": 920
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm185.icon.png"
+      },
+      {
+        "no": 290,
+        "name": "土居忍士",
+        "originalName": "Nincada",
+        "cp": {
+          "min": 299,
+          "max": 329
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm290.icon.png"
+      },
+      {
+        "no": 568,
+        "name": "破破袋",
+        "originalName": "Trubbish",
+        "cp": {
+          "min": 395,
+          "max": 428
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm568.icon.png"
+      },
+      {
+        "no": 358,
+        "name": "風鈴鈴",
+        "originalName": "Chimecho",
+        "cp": {
+          "min": 918,
+          "max": 968
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm358.icon.png"
+      },
+      {
+        "no": 531,
+        "name": "差不多娃娃",
+        "originalName": "Audino",
+        "cp": {
+          "min": 676,
+          "max": 721
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm531.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "孵化 2 顆蛋",
+    "originalDescription": "Hatch 2 Eggs",
+    "category": "探索",
+    "rewardPokemons": [
+      {
+        "no": 215,
+        "name": "狃拉",
+        "originalName": "Sneasel",
+        "cp": {
+          "min": 831,
+          "max": 879
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm215.icon.png"
+      },
+      {
+        "no": 303,
+        "name": "大嘴娃",
+        "originalName": "Mawile",
+        "cp": {
+          "min": 658,
+          "max": 700
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm303.icon.png"
+      },
+      {
+        "no": 349,
+        "name": "醜醜魚",
+        "originalName": "Feebas",
+        "cp": {
+          "min": 99,
+          "max": 117
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm349.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "Explore 2 km",
+    "originalDescription": "Explore 2 km",
+    "category": "探索",
+    "rewardPokemons": [
+      {
+        "no": 58,
+        "name": "卡蒂狗",
+        "originalName": "Growlithe",
+        "cp": {
+          "min": 495,
+          "max": 533
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.icon.png"
+      },
+      {
+        "no": 58,
+        "name": "卡蒂狗",
+        "originalName": "Growlithe",
+        "cp": {
+          "min": 527,
+          "max": 566
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.fHISUIAN.icon.png"
+      },
+      {
+        "no": 926,
+        "name": "狗仔包",
+        "originalName": "Fidough",
+        "cp": {
+          "min": 389,
+          "max": 422
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm926.icon.png"
+      },
+      {
+        "no": 971,
+        "name": "墓仔狗",
+        "originalName": "Greavard",
+        "cp": {
+          "min": 402,
+          "max": 435
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm971.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "旋轉 3 個寶可補給站或道館",
+    "originalDescription": "Spin 3 PokéStops or Gyms",
+    "category": "探索",
+    "rewardPokemons": [
+      {
+        "no": 84,
+        "name": "嘟嘟",
+        "originalName": "Doduo",
+        "cp": {
+          "min": 477,
+          "max": 514
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm84.icon.png"
+      },
+      {
+        "no": 223,
+        "name": "鐵炮魚",
+        "originalName": "Remoraid",
+        "cp": {
+          "min": 358,
+          "max": 391
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm223.icon.png"
+      },
+      {
+        "no": 280,
+        "name": "拉魯拉絲",
+        "originalName": "Ralts",
+        "cp": {
+          "min": 206,
+          "max": 231
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm280.icon.png"
+      },
+      {
+        "no": 304,
+        "name": "可可多拉",
+        "originalName": "Aron",
+        "cp": {
+          "min": 522,
+          "max": 560
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm304.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "旋轉 5 個寶可補給站或道館",
+    "originalDescription": "Spin 5 PokéStops or Gyms",
+    "category": "探索",
+    "rewardPokemons": [
+      {
+        "no": 58,
+        "name": "卡蒂狗",
+        "originalName": "Growlithe",
+        "cp": {
+          "min": 495,
+          "max": 533
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.icon.png"
+      },
+      {
+        "no": 58,
+        "name": "卡蒂狗",
+        "originalName": "Growlithe",
+        "cp": {
+          "min": 527,
+          "max": 566
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.fHISUIAN.icon.png"
+      },
+      {
+        "no": 79,
+        "name": "呆呆獸",
+        "originalName": "Slowpoke",
+        "cp": {
+          "min": 487,
+          "max": 525
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm79.icon.png"
+      },
+      {
+        "no": 79,
+        "name": "呆呆獸",
+        "originalName": "Slowpoke",
+        "cp": {
+          "min": 487,
+          "max": 525
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm79.fGALARIAN.icon.png"
+      },
+      {
+        "no": 19,
+        "name": "小拉達",
+        "originalName": "Rattata",
+        "cp": {
+          "min": 286,
+          "max": 315
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm19.fALOLA.icon.png"
+      },
+      {
+        "no": 263,
+        "name": "蛇紋熊",
+        "originalName": "Zigzagoon",
+        "cp": {
+          "min": 193,
+          "max": 218
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm263.fGALARIAN.icon.png"
+      },
+      {
+        "no": 734,
+        "name": "貓鼬少",
+        "originalName": "Yungoos",
+        "cp": {
+          "min": 344,
+          "max": 377
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm734.icon.png"
+      },
+      {
+        "no": 915,
+        "name": "愛吃豚",
+        "originalName": "Lechonk",
+        "cp": {
+          "min": 285,
+          "max": 314
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm915.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "為野生寶可夢拍攝 1 張照片",
+    "originalDescription": "Take a snapshot of a wild Pokémon",
+    "category": "探索",
+    "rewardPokemons": [
+      {
+        "no": 328,
+        "name": "大顎蟻",
+        "originalName": "Trapinch",
+        "cp": {
+          "min": 507,
+          "max": 546
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm328.icon.png"
+      },
+      {
+        "no": 453,
+        "name": "不良蛙",
+        "originalName": "Croagunk",
+        "cp": {
+          "min": 375,
+          "max": 408
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm453.icon.png"
+      },
+      {
+        "no": 546,
+        "name": "木棉球",
+        "originalName": "Cottonee",
+        "cp": {
+          "min": 271,
+          "max": 300
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm546.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "打敗 3 個 GO 火箭隊手下",
+    "originalDescription": "Defeat 3 Team GO Rocket Grunts",
+    "category": "GO 火箭隊",
+    "rewardPokemons": [
+      {
+        "no": 211,
+        "name": "千針魚",
+        "originalName": "Qwilfish",
+        "cp": {
+          "min": 866,
+          "max": 915
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm211.fHISUIAN.icon.png"
+      },
+      {
+        "no": 559,
+        "name": "滑滑小子",
+        "originalName": "Scraggy",
+        "cp": {
+          "min": 549,
+          "max": 588
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm559.icon.png"
+      },
+      {
+        "no": 624,
+        "name": "駒刀小兵",
+        "originalName": "Pawniard",
+        "cp": {
+          "min": 574,
+          "max": 614
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm624.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "AR Scanning",
+    "originalDescription": "AR Scanning",
+    "category": "AR Mapping",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "發送 3 個友情禮物",
+    "originalDescription": "Send 3 Gifts to friends",
+    "category": "贊助據點",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 8 隻寶可夢",
+    "originalDescription": "Catch 8 Pokémon",
+    "category": "贊助據點",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 5 隻寶可夢",
+    "originalDescription": "Catch 5 Pokémon",
+    "category": "其他類型",
+    "rewardPokemons": [],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 10 隻寶可夢",
+    "originalDescription": "Catch 10 Pokémon",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 100,
+        "name": "霹靂電球",
+        "originalName": "Voltorb",
+        "cp": {
+          "min": 399,
+          "max": 432
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm100.fHISUIAN.icon.png"
+      },
+      {
+        "no": 211,
+        "name": "千針魚",
+        "originalName": "Qwilfish",
+        "cp": {
+          "min": 866,
+          "max": 915
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm211.fHISUIAN.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "捕捉 20 隻寶可夢",
+    "originalDescription": "Catch 20 Pokémon",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 58,
+        "name": "卡蒂狗",
+        "originalName": "Growlithe",
+        "cp": {
+          "min": 527,
+          "max": 566
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm58.fHISUIAN.icon.png"
+      },
+      {
+        "no": 215,
+        "name": "狃拉",
+        "originalName": "Sneasel",
+        "cp": {
+          "min": 831,
+          "max": 879
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm215.fHISUIAN.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "Follow a Route",
+    "originalDescription": "Follow a Route",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 550,
+        "name": "野蠻鱸魚",
+        "originalName": "Basculin",
+        "cp": {
+          "min": 847,
+          "max": 896
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm550.fWHITE_STRIPED.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "和夥伴一起走路，取得 2 顆糖果",
+    "originalDescription": "Earn 2 Candies walking with your buddy",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 39,
+        "name": "胖丁",
+        "originalName": "Jigglypuff",
+        "cp": {
+          "min": 277,
+          "max": 310
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm39.icon.png"
+      },
+      {
+        "no": 427,
+        "name": "捲捲耳",
+        "originalName": "Buneary",
+        "cp": {
+          "min": 501,
+          "max": 539
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm427.icon.png"
+      },
+      {
+        "no": 431,
+        "name": "魅力喵",
+        "originalName": "Glameow",
+        "cp": {
+          "min": 367,
+          "max": 400
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm431.icon.png"
+      },
+      {
+        "no": 659,
+        "name": "掘掘兔",
+        "originalName": "Bunnelby",
+        "cp": {
+          "min": 212,
+          "max": 237
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm659.icon.png"
+      },
+      {
+        "no": 667,
+        "name": "小獅獅",
+        "originalName": "Litleo",
+        "cp": {
+          "min": 571,
+          "max": 611
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm667.icon.png"
+      },
+      {
+        "no": 702,
+        "name": "咚咚鼠",
+        "originalName": "Dedenne",
+        "cp": {
+          "min": 743,
+          "max": 789
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm702.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "和夥伴一起走路，取得 3 顆糖果",
+    "originalDescription": "Earn 3 Candies walking with your buddy",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 618,
+        "name": "泥巴魚",
+        "originalName": "Stunfisk",
+        "cp": {
+          "min": 876,
+          "max": 926
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.icon.png"
+      },
+      {
+        "no": 618,
+        "name": "泥巴魚",
+        "originalName": "Stunfisk",
+        "cp": {
+          "min": 876,
+          "max": 926
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm618.fGALARIAN.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "發送 3 個貼了貼紙的友情禮物",
+    "originalDescription": "Send 3 Gifts and add a sticker to each",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 320,
+        "name": "吼吼鯨",
+        "originalName": "Wailmer",
+        "cp": {
+          "min": 584,
+          "max": 629
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm320.icon.png"
+      },
+      {
+        "no": 333,
+        "name": "青綿鳥",
+        "originalName": "Swablu",
+        "cp": {
+          "min": 322,
+          "max": 353
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm333.icon.png"
+      },
+      {
+        "no": 759,
+        "name": "童偶熊",
+        "originalName": "Stufful",
+        "cp": {
+          "min": 540,
+          "max": 579
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm759.icon.png"
+      },
+      {
+        "no": 767,
+        "name": "膽小蟲",
+        "originalName": "Wimpod",
+        "cp": {
+          "min": 191,
+          "max": 215
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm767.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  },
+  {
+    "description": "交換 1 次寶可夢",
+    "originalDescription": "Trade a Pokémon",
+    "category": "其他類型",
+    "rewardPokemons": [
+      {
+        "no": 112,
+        "name": "鑽角犀獸",
+        "originalName": "Rhydon",
+        "cp": {
+          "min": 1302,
+          "max": 1362
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm112.icon.png"
+      },
+      {
+        "no": 349,
+        "name": "醜醜魚",
+        "originalName": "Feebas",
+        "cp": {
+          "min": 99,
+          "max": 117
+        },
+        "shinyAvailable": true,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm349.icon.png"
+      },
+      {
+        "no": 356,
+        "name": "彷徨夜靈",
+        "originalName": "Dusclops",
+        "cp": {
+          "min": 638,
+          "max": 682
+        },
+        "shinyAvailable": false,
+        "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons_crop/pm356.icon.png"
+      }
+    ],
+    "rewardPokemonMegaCandies": []
+  }
+]
