@@ -1,5 +1,5 @@
-const cpFormatter = (cpRawText: string) => {
-  const matches = cpRawText.trim().match(/^(\d+)[^\d]+(\d+)$/);
+const cpFormatter = (cpRawText?: string) => {
+  const matches = cpRawText?.trim().match(/^(\d+)[^\d]+(\d+)$/);
 
   if (matches) {
     return {

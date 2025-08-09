@@ -23,8 +23,8 @@ const getRaidBosses = async () => {
     const isHeader = listItem.getAttribute('class') === 'header-li';
 
     if (isHeader) {
-      const tierText = listItem.querySelector('h2.boss-tier-header')?.lastChild.rawText;
-      const tier = tierText?.toLowerCase().replace('tier', '').trim()!;
+      const tierText = listItem.querySelector('h2.boss-tier-header')?.lastChild?.rawText;
+      const tier = tierText?.toLowerCase().replace('tier ', '').trim()!;
       const index = i - tierList.length;
       tierList.push({ tier, index });
     } else {
@@ -75,7 +75,7 @@ const getRaidBosses = async () => {
       no = parseInt(noRaw);
     }
 
-    const originalName = bossItem.querySelector('p.boss-name')?.firstChild.rawText!;
+    const originalName = bossItem.querySelector('p.boss-name')?.firstChild?.rawText!;
     const name = pokedex.transPokemonName(originalName);
 
     return {
@@ -91,8 +91,8 @@ const getRaidBosses = async () => {
       typeUrls: bossItem.querySelectorAll('div.boss-type img').map((node) =>
         urlJoin(hostUrl, node.getAttribute('src')!)
       ),
-      cp: cpFormatter(bossItem.querySelector('div.boss-2')?.lastChild.rawText!),
-      boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp')?.lastChild.rawText!),
+      cp: cpFormatter(bossItem.querySelector('div.boss-2')?.lastChild?.rawText!),
+      boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp')?.lastChild?.rawText!),
       boostedWeathers: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) => {
         const matches = node.getAttribute('src')?.match(/(\w+)\.png$/);
         return matches ? matches[1] : null;
