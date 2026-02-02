@@ -10,26 +10,27 @@ import { cpFormatter } from './utils/calculator';
 import { pokedex } from './utils/pokedex';
 
 const getRaidBosses = async () => {
-  const bossUrl = urlJoin(hostUrl, '/boss/');
+  const bossUrl = urlJoin(hostUrl, '/raid-bosses/');
   const res = await fetch(bossUrl);
   const xml = await res.text();
 
   const root = parse(xml);
-  const listItems = root.querySelectorAll('#raid-list ul.list li');
-  let tierList: { tier: string, index: number }[] = [];
+  const grids = root.querySelectorAll('div.grid');
+  const tierList: { tier: string, index: number }[] = [];
   const bossItems: HTMLElement[] = [];
 
-  listItems.forEach((listItem, i) => {
-    const isHeader = listItem.getAttribute('class') === 'header-li';
-
-    if (isHeader) {
-      const tierText = listItem.querySelector('h2.boss-tier-header')?.lastChild?.rawText;
-      const tier = tierText?.toLowerCase().replace('tier ', '').trim()!;
-      const index = i - tierList.length;
-      tierList.push({ tier, index });
-    } else {
-      bossItems.push(listItem);
+  grids.forEach((grid) => {
+    let tierHeader: HTMLElement | null = grid.previousElementSibling;
+    while (tierHeader && (tierHeader.rawTagName !== 'h2' || !tierHeader.getAttribute('class')?.includes('header'))) {
+      tierHeader = tierHeader.previousElementSibling;
     }
+    const tierRaw = tierHeader?.getAttribute('data-tier') ?? '';
+    const tier = tierRaw.toLowerCase();
+
+    const cards = grid.querySelectorAll('div.card');
+    const startIndex = bossItems.length;
+    tierList.push({ tier, index: startIndex });
+    cards.forEach((card) => bossItems.push(card));
   });
 
   /**
@@ -42,8 +43,9 @@ const getRaidBosses = async () => {
       { tier: 'mega', index: 9 }
     ]
    */
-  tierList = _.uniqBy(tierList.reverse(), (o) => o.index).reverse();
-  
+  tierList.sort((a, b) => a.index - b.index);
+  const dedupedTierList = _.uniqBy(tierList, (o) => o.index);
+
   const raidBosses = bossItems.map((bossItem, i) => {
     const imageUrlRaw = bossItem.querySelector('div.boss-img img')?.getAttribute('src')!;
 
@@ -75,29 +77,38 @@ const getRaidBosses = async () => {
       no = parseInt(noRaw);
     }
 
-    const originalName = bossItem.querySelector('p.boss-name')?.firstChild?.rawText!;
+    const originalName = bossItem.querySelector('p.name')?.firstChild?.rawText
+      ?? bossItem.querySelector('p.name')?.text?.trim() ?? '';
     const name = pokedex.transPokemonName(originalName);
 
+    const cpRangeEl = bossItem.querySelector('div.cp-range');
+    const boostedCpEl = bossItem.querySelector('div.boosted-cp-row span.boosted-cp');
+    const weatherContainer = bossItem.querySelector('div.weather-boosted') ?? bossItem.querySelector('div.boss-3');
+
+    const cpRaw = (cpRangeEl?.text ?? cpRangeEl?.rawText ?? '')?.replace(/^CP\s*/i, '').trim();
+    const boostedCpRaw = (boostedCpEl?.text ?? boostedCpEl?.rawText ?? '')?.replace(/^CP\s*/i, '').trim();
+
     return {
-      tier: _.maxBy(tierList.filter((o) => i >= o.index), 'index')?.tier,
+      tier: _.maxBy(dedupedTierList.filter((o) => i >= o.index), 'index')?.tier,
       no,
       name,
       originalName,
       imageUrl,
-      shinyAvailable: !!bossItem.querySelector('div.boss-img img.shiny-icon'),
+      shinyAvailable: !!bossItem.querySelector('div.boss-img .shiny-icon'),
       types: bossItem.querySelectorAll('div.boss-type img').map((node) =>
         node.getAttribute('title')?.toLowerCase()
-      ),
-      typeUrls: bossItem.querySelectorAll('div.boss-type img').map((node) =>
-        urlJoin(hostUrl, node.getAttribute('src')!)
-      ),
-      cp: cpFormatter(bossItem.querySelector('div.boss-2')?.lastChild?.rawText!),
-      boostedCp: cpFormatter(bossItem.querySelector('div.boss-3 span.boosted-cp')?.lastChild?.rawText!),
-      boostedWeathers: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) => {
+      ).filter(Boolean),
+      typeUrls: bossItem.querySelectorAll('div.boss-type img').map((node) => {
+        const src = node.getAttribute('src');
+        return src ? urlJoin(hostUrl, src) : null;
+      }).filter(Boolean),
+      cp: cpFormatter(cpRaw),
+      boostedCp: cpFormatter(boostedCpRaw),
+      boostedWeathers: (weatherContainer?.querySelectorAll('.boss-weather img') ?? []).map((node) => {
         const matches = node.getAttribute('src')?.match(/(\w+)\.png$/);
         return matches ? matches[1] : null;
       }).filter(Boolean),
-      boostedWeatherUrls: bossItem.querySelectorAll('div.boss-3 .boss-weather img').map((node) => {
+      boostedWeatherUrls: (weatherContainer?.querySelectorAll('.boss-weather img') ?? []).map((node) => {
         const matches = node.getAttribute('src')?.match(/(\w+)\.png$/);
         return matches ? urlJoin(hostUrl, node.getAttribute('src')!) : null;
       }).filter(Boolean),
