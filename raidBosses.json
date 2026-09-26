@@ -1,0 +1,584 @@
+[
+  {
+    "tier": "1",
+    "no": 147,
+    "name": "迷你龍",
+    "originalName": "Dratini",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm147.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dragon"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dragon.png"
+    ],
+    "cp": {
+      "min": 529,
+      "max": 574
+    },
+    "boostedCp": {
+      "min": 661,
+      "max": 717
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 246,
+    "name": "幼基拉斯",
+    "originalName": "Larvitar",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm246.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/rock.png",
+      "https://leekduck.com/assets/img/types/ground.png"
+    ],
+    "cp": {
+      "min": 548,
+      "max": 594
+    },
+    "boostedCp": {
+      "min": 686,
+      "max": 743
+    },
+    "boostedWeathers": [
+      "partlycloudy",
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/partlycloudy.png",
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 371,
+    "name": "寶貝龍",
+    "originalName": "Bagon",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm371.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dragon"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dragon.png"
+    ],
+    "cp": {
+      "min": 612,
+      "max": 660
+    },
+    "boostedCp": {
+      "min": 765,
+      "max": 826
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 633,
+    "name": "單首龍",
+    "originalName": "Deino",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm633.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dark.png",
+      "https://leekduck.com/assets/img/types/dragon.png"
+    ],
+    "cp": {
+      "min": 560,
+      "max": 606
+    },
+    "boostedCp": {
+      "min": 701,
+      "max": 758
+    },
+    "boostedWeathers": [
+      "foggy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 157,
+    "name": "火爆獸 (洗翠地區)",
+    "originalName": "Hisuian Typhlosion",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm157.fHISUIAN.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/fire.png",
+      "https://leekduck.com/assets/img/types/ghost.png"
+    ],
+    "cp": {
+      "min": 1632,
+      "max": 1710
+    },
+    "boostedCp": {
+      "min": 2041,
+      "max": 2138
+    },
+    "boostedWeathers": [
+      "sunny",
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 503,
+    "name": "大劍鬼 (洗翠地區)",
+    "originalName": "Hisuian Samurott",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm503.fHISUIAN.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/water.png",
+      "https://leekduck.com/assets/img/types/dark.png"
+    ],
+    "cp": {
+      "min": 1525,
+      "max": 1601
+    },
+    "boostedCp": {
+      "min": 1907,
+      "max": 2001
+    },
+    "boostedWeathers": [
+      "rainy",
+      "foggy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/foggy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 724,
+    "name": "狙射樹梟 (洗翠地區)",
+    "originalName": "Hisuian Decidueye",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm724.fHISUIAN.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/grass.png",
+      "https://leekduck.com/assets/img/types/fighting.png"
+    ],
+    "cp": {
+      "min": 1579,
+      "max": 1655
+    },
+    "boostedCp": {
+      "min": 1974,
+      "max": 2069
+    },
+    "boostedWeathers": [
+      "sunny",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 796,
+    "name": "電束木",
+    "originalName": "Xurkitree",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm796.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "electric"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/electric.png"
+    ],
+    "cp": {
+      "min": 2155,
+      "max": 2249
+    },
+    "boostedCp": {
+      "min": 2695,
+      "max": 2812
+    },
+    "boostedWeathers": [
+      "rainy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 795,
+    "name": "費洛美螂",
+    "originalName": "Pheromosa",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm795.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/bug.png",
+      "https://leekduck.com/assets/img/types/fighting.png"
+    ],
+    "cp": {
+      "min": 1538,
+      "max": 1624
+    },
+    "boostedCp": {
+      "min": 1922,
+      "max": 2030
+    },
+    "boostedWeathers": [
+      "rainy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 794,
+    "name": "爆肌蚊",
+    "originalName": "Buzzwole",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm794.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/bug.png",
+      "https://leekduck.com/assets/img/types/fighting.png"
+    ],
+    "cp": {
+      "min": 1894,
+      "max": 1977
+    },
+    "boostedCp": {
+      "min": 2368,
+      "max": 2472
+    },
+    "boostedWeathers": [
+      "rainy",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "mega",
+    "no": 687,
+    "name": "烏賊王 (Mega 烏賊王)",
+    "originalName": "Mega Malamar",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm687.fMEGA.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dark.png",
+      "https://leekduck.com/assets/img/types/psychic.png"
+    ],
+    "cp": {
+      "min": 1279,
+      "max": 1347
+    },
+    "boostedCp": {
+      "min": 1599,
+      "max": 1685
+    },
+    "boostedWeathers": [
+      "foggy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 66,
+    "name": "腕力",
+    "originalName": "Shadow Machop",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm66.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "fighting"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/fighting.png"
+    ],
+    "cp": {
+      "min": 638,
+      "max": 730
+    },
+    "boostedCp": {
+      "min": 798,
+      "max": 913
+    },
+    "boostedWeathers": [
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 69,
+    "name": "喇叭芽",
+    "originalName": "Shadow Bellsprout",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm69.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/grass.png",
+      "https://leekduck.com/assets/img/types/poison.png"
+    ],
+    "cp": {
+      "min": 506,
+      "max": 590
+    },
+    "boostedCp": {
+      "min": 633,
+      "max": 738
+    },
+    "boostedWeathers": [
+      "sunny",
+      "cloudy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png",
+      "https://leekduck.com/assets/img/weather/cloudy.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 255,
+    "name": "火稚雞",
+    "originalName": "Shadow Torchic",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm255.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "fire"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/fire.png"
+    ],
+    "cp": {
+      "min": 541,
+      "max": 624
+    },
+    "boostedCp": {
+      "min": 677,
+      "max": 781
+    },
+    "boostedWeathers": [
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  },
+  {
+    "tier": "1",
+    "no": 371,
+    "name": "寶貝龍",
+    "originalName": "Shadow Bagon",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm371.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "dragon"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/dragon.png"
+    ],
+    "cp": {
+      "min": 575,
+      "max": 660
+    },
+    "boostedCp": {
+      "min": 719,
+      "max": 826
+    },
+    "boostedWeathers": [
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 28,
+    "name": "穿山王 (阿羅拉地區)",
+    "originalName": "Shadow Alolan Sandslash",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm28.fALOLA.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "ice",
+      "steel"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ice.png",
+      "https://leekduck.com/assets/img/types/steel.png"
+    ],
+    "cp": {
+      "min": 1266,
+      "max": 1390
+    },
+    "boostedCp": {
+      "min": 1582,
+      "max": 1737
+    },
+    "boostedWeathers": [
+      "snowy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/snowy.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 195,
+    "name": "沼王",
+    "originalName": "Shadow Quagsire",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm195.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/water.png",
+      "https://leekduck.com/assets/img/types/ground.png"
+    ],
+    "cp": {
+      "min": 1025,
+      "max": 1138
+    },
+    "boostedCp": {
+      "min": 1282,
+      "max": 1423
+    },
+    "boostedWeathers": [
+      "rainy",
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  },
+  {
+    "tier": "3",
+    "no": 608,
+    "name": "燈火幽靈",
+    "originalName": "Shadow Lampent",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm608.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/ghost.png",
+      "https://leekduck.com/assets/img/types/fire.png"
+    ],
+    "cp": {
+      "min": 871,
+      "max": 976
+    },
+    "boostedCp": {
+      "min": 1089,
+      "max": 1220
+    },
+    "boostedWeathers": [
+      "foggy",
+      "sunny"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/foggy.png",
+      "https://leekduck.com/assets/img/weather/sunny.png"
+    ]
+  },
+  {
+    "tier": "5",
+    "no": 642,
+    "name": "雷電雲 (化身形態)",
+    "originalName": "Shadow Thundurus (Incarnate)",
+    "imageUrl": "https://cdn.leekduck.com/assets/img/pokemon_icons/pm642.fINCARNATE.icon.png",
+    "shinyAvailable": true,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "typeUrls": [
+      "https://leekduck.com/assets/img/types/electric.png",
+      "https://leekduck.com/assets/img/types/flying.png"
+    ],
+    "cp": {
+      "min": 1762,
+      "max": 1911
+    },
+    "boostedCp": {
+      "min": 2203,
+      "max": 2389
+    },
+    "boostedWeathers": [
+      "rainy",
+      "windy"
+    ],
+    "boostedWeatherUrls": [
+      "https://leekduck.com/assets/img/weather/rainy.png",
+      "https://leekduck.com/assets/img/weather/windy.png"
+    ]
+  }
+]
